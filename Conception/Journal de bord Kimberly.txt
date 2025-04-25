@@ -11,7 +11,7 @@
 
 20250425
 	{
-		Création de la base React,
+		Création de la base Next.js,
 		Lecture sur les pull request,
 		
 	}
