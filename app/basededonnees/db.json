@@ -88,5 +88,158 @@
       "duration": "6h78m + bonus",
       "deleted": false
     }
+  ],
+  "musiques": [
+    {
+      "id": "1",
+      "titre": "Sgt. Pepper's Lonely Hearts Club Band",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band",
+      "artiste": "The Beatles",
+      "genre": ["Rock", "Pop", "Psychédélique"],
+      "année": 1967,
+      "duration": "0h 39m 51s",
+      "imageUrl": "http://www.beatlesebooks.com/files/1619622/uploaded/sgt%20peper%20capitol%20label%20side%20one.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=R7dQjOCLQI8",
+      "enmain33": true,
+      "enmain45": false,
+      "deleted": false
+    },
+    {
+      "id": "2",
+      "titre": "Thriller",
+      "album": "Thriller",
+      "artiste": "Michael Jackson",
+      "genre": ["Pop", "R&B", "Funk", "Rock"],
+      "année": 1982,
+      "duration": "0h 42m 19s",
+      "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F2%2F0%2F4%2F1%2F22041061%5D%2Csizedata%5B850x600%5D&call=url%5Bfile%3Aproduct.chain%5D",
+      "extraitUrl": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
+      "enmain33": true,
+      "enmain45": false,
+      "deleted": false
+    },
+    {
+      "id": "3",
+      "titre": "The Dark Side of the Moon",
+      "album": "The Dark Side of the Moon",
+      "artiste": "Pink Floyd",
+      "genre": ["Progressive Rock", "Art Rock"],
+      "année": 1973,
+      "duration": "0h 42m 49s",
+      "imageUrl": "https://encorerecords.ca/cdn/shop/files/81gjeiHQMSL._AC_SL1500.jpg?v=1697131592&width=600",
+      "extraitUrl": "https://www.youtube.com/watch?v=JwYX52BP2Sk",
+      "enmain33": true,
+      "enmain45": false,
+      "deleted": false
+    },
+    {
+      "id": "4",
+      "titre": "Led Zeppelin IV",
+      "album": "Led Zeppelin IV",
+      "artiste": "Led Zeppelin",
+      "genre": ["Hard Rock", "Heavy Metal", "Folk Rock"],
+      "année": 1971,
+      "duration": "0h 42m 34s",
+      "imageUrl": "../app/basededonnees/images/LedZeppelinIV.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=0hLESLXqBLI",
+      "enmain33": true,
+      "enmain45": false,
+      "deleted": false
+    },
+    {
+      "id": "5",
+      "titre": "Nevermind",
+      "album": "Nevermind",
+      "artiste": "Nirvana",
+      "genre": ["Grunge", "Alternative Rock"],
+      "année": 1991,
+      "duration": "0h 42m 24s",
+      "imageUrl": "../app/basededonnees/images/nirvana-nevermind-blackvinyl-2_1000x1000.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=pkcJEvMcnEg",
+      "enmain33": true,
+      "enmain45": false,
+      "deleted": false
+    },
+    {
+      "id": "6",
+      "titre": "Bohemian Rhapsody / I'm in Love with My Car",
+      "album": null,
+      "artiste": "Queen",
+      "genre": ["Rock", "Opéra Rock"],
+      "année": 1975,
+      "duration": "0h 05m 55s",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Bohemian_Rhapsody_by_Queen_US_vinyl_red_label.png/250px-Bohemian_Rhapsody_by_Queen_US_vinyl_red_label.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+      "enmain33": false,
+      "enmain45": true,
+      "deleted": false
+    },
+    {
+      "id": "7",
+      "titre": "Hound Dog / Don't Be Cruel",
+      "album": null,
+      "artiste": "Elvis Presley",
+      "genre": [
+        "Rock and Roll"
+      ],
+      "année": 1956,
+      "duration": "0h 02m 16s",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Big-mama-thornton-hound-dog.jpg/250px-Big-mama-thornton-hound-dog.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=-eHJ12Vhpyc",
+      "enmain33": false,
+      "enmain45": true,
+      "deleted": false
+    },
+    {
+      "id": "8",
+      "titre": "Like a Rolling Stone / Gates of Eden",
+      "album": null,
+      "artiste": "Bob Dylan",
+      "genre": [
+        "Folk Rock"
+      ],
+      "année": 1965,
+      "duration": "0h 06m 13s",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Gates_of_Eden_cover.jpg/250px-Gates_of_Eden_cover.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=IwOfCgkyEj0",
+      "enmain33": false,
+      "enmain45": true,
+      "deleted": false
+    },
+    {
+      "id": "9",
+      "titre": "Good Vibrations / Let's Go Away for Awhile",
+      "album": null,
+      "artiste": "The Beach Boys",
+      "genre": [
+        "Surf Rock",
+        "Psychedelic Pop"
+      ],
+      "année": 1966,
+      "duration": "0h 03m 39s",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Good_Vibrations_single.jpg/250px-Good_Vibrations_single.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=apBWI6xrbLY",
+      "enmain33": false,
+      "enmain45": true,
+      "deleted": false
+    },
+    {
+      "id": "10",
+      "titre": "Billie Jean / Beat It",
+      "album": "Thriller",
+      "artiste": "Michael Jackson",
+      "genre": [
+        "Pop",
+        "R&B",
+        "Funk"
+      ],
+      "année": 1983,
+      "duration": "0h 04m 54s",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Billie_Jean_US_7-inch_vinyl_Side-A.jpg/250px-Billie_Jean_US_7-inch_vinyl_Side-A.jpg",
+      "extraitUrl": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
+      "enmain33": false,
+      "enmain45": true,
+      "deleted": false
+    }
   ]
 }
