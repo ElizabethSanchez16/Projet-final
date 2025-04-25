@@ -13,7 +13,7 @@
 	{
 		Création de la base Next.js,
 		Lecture sur les pull request,
-		
+		install bootstrap, sass, json-server, jquery,
 	}
 	
 	
