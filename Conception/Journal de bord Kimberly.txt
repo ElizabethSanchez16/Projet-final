@@ -1,0 +1,19 @@
+20250422
+	{
+		Consignes pour le projet, 
+		création des équipes, 
+		Discussion du plan d'affaires,
+		partage des taches,
+		établissement du lien de communication,
+		Création dépot git,
+		Planification de la première période de travail.
+	}
+
+20250425
+	{
+		Création de la base React,
+		Lecture sur les pull request,
+		
+	}
+	
+	
