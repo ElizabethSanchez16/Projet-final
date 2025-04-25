@@ -1,11 +1,13 @@
+Journal de bord de Kimberly 
+
 20250422
 	{
-		Consignes pour le projet, 
+		Lecture des Consignes pour le projet, 
 		création des équipes, 
 		Discussion du plan d'affaires,
 		partage des taches,
 		établissement du lien de communication,
-		Création dépot git,
+		Création dépot git par Elizabeth et ajout de Kimberly Rouuse et Kim Lavoie,
 		Planification de la première période de travail.
 	}
 
