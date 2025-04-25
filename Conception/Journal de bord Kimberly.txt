@@ -16,7 +16,8 @@
 		install bootstrap, sass, json-server, jquery,
 		Test avec les modules et pages de l'examen,
 		Ajout "musiques" à la BD avec les suggestions de Gemini pour les titres populaires,
-		
+		Ajout de trois tables tournantes "lecteurs" à la BD.
+		Ajout des prix des vinyls selon le marché en notre inventaire de vente.
 	}
 	
 	
