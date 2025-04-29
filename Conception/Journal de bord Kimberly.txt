@@ -26,5 +26,7 @@ Journal de bord de Kimberly
 	{
 		Théorie déploiement
 		Discussion avancement et Dispatch
+		Céeation dossiers boutique et administration
+		Canvas pour la présentation
 		
 	}
