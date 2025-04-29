@@ -21,5 +21,10 @@ Journal de bord de Kimberly
 		Ajout de trois tables tournantes "lecteurs" à la BD.
 		Ajout des prix des vinyls selon le marché en notre inventaire de vente.
 	}
-	
-	
+
+20250429
+	{
+		Théorie déploiement
+		Discussion avancement et Dispatch
+		
+	}
