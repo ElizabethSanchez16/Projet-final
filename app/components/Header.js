@@ -15,6 +15,19 @@ export default function Header() {
                 <a className="nav-link" href="/addmovie">➕Add Movie</a>
               </li>
             </ul>
+
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="https://www.canva.com/design/DAGmBePhDAU/Ly_Kzs-t1MOfIjy3og6CVw/edit?utm_content=DAGmBePhDAU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Présentation Canva</a>
+              </li>
+            </ul>
+
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="https://github.com/ElizabethSanchez16/Projet-final.git">Dépot Github</a>
+              </li>
+            </ul>
+
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
