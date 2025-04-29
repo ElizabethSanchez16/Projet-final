@@ -29,6 +29,9 @@ export default function AjoutMusiqueForm({ ajoutMusiqueAction }) {
                     <button type="submit" className="btn btn-primary">Ajouter le film</button>
                     {state?.error && <p className="text-danger mt-2">{state.error}</p>}
                     {state?.success && <p className="text-success mt-2">Film ajouté avec succès!</p>}
+
+
+
                 </form>
             </div>
         </>
