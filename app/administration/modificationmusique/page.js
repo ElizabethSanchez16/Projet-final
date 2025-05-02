@@ -1,9 +1,9 @@
 //administration\modificationmusique\page.js
-import Header from "../components/Header";
+import Header from "../../components/Header";
 
-import ModificationMusiqueForm from "../components/ModificationMusiqueForm";
+import ModificationMusiqueForm from "../../components/ModificationMusiqueForm";
 
-import { modificationMusiqueAction } from "../serversActions/modificationMusiqueAction";
+import { modificationMusiqueAction } from "../../serversActions/modificationMusiqueAction";
 
 
 export default async function PageModificationMusique() {
