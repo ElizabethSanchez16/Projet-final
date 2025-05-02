@@ -9,6 +9,7 @@ export default async function PageAjoutMusique() {
     return (
         <>
             <Header />
+            <AjoutMusiqueForm ajoutMusiqueAction={ajoutMusiqueAction} />
         </>
     );
 }

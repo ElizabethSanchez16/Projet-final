@@ -28,5 +28,10 @@ Journal de bord de Kimberly
 		Discussion avancement et Dispatch
 		Céeation dossiers boutique et administration
 		Canvas pour la présentation
-		
+	}
+
+20250502
+	{
+		Ajout panier, et liens au Header
+		Travail sur les form administration
 	}
