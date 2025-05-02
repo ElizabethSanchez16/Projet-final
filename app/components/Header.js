@@ -25,7 +25,7 @@ export default function Header() {
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-              <a className="nav-link" href="../../administration/panier">Panier</a>
+              <a className="nav-link" href="../../boutique/panier">Panier</a>
               </li>
             </ul>
 
