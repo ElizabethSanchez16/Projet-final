@@ -3,12 +3,11 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useTransition } from 'react';
-
 import { deleteMusiqueAction } from "../serversActions/deleteMusiqueAction";
-
 import { getLocalStorageLastConsultedMusiqueIdAction } from "../serversActions/getLocalStorageLastconsultedMusiqueIdAction";
+import styles from '../../app/styles.css';
 
-export default function BlogCard({ key, titre, album, artiste, genre, année, duration, imageUrl, extraitUrl, tours33, tours45, disponible, deleted, prix, id, className, onDelete }){
+export default function BlogCard({ key, titre, album, artiste, genre, année, duration, imageUrl, extraitUrl, tours33, tours45, disponible, deleted, prix, id, className, onDelete }) {
     const [isLastConsulted, setIsLastConsulted] = useState(false);
     const [isPending, startTransition] = useTransition();
 
@@ -32,7 +31,9 @@ export default function BlogCard({ key, titre, album, artiste, genre, année, du
     return (
         <>
             <div className={`blog-card ${className || ''}`}>
-                <img src={imageUrl} alt={titre} className="card-img-top" />
+                <div className="image-container">
+                    <img src={imageUrl} alt={titre} className="card-img" />
+                </div>
                 <div className="card-body">
                     <h5 className="card-title">{titre}</h5>
                     <p className="card-text">Artiste: {artiste}</p>

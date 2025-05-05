@@ -41,4 +41,7 @@ Journal de bord de Kimberly
 		Récupération des logos pour le site
 		Modification préliminaires à blog list, blogcard, et blogdétail
 		Installer Logo
+		Correction structure bd
+		ajout sass (fichier, run, watch, et du scss)
+		déplacer dossier images
 	}

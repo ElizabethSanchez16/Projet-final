@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm-run-all --parallel next:dev api:dev",
+    "dev": "npm-run-all --parallel next:dev api:dev watch:css",
     "next:dev": "next dev",
     "api:dev": "json-server --watch app/basededonnees/db.json --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sassverscss": "sass ./app/Scss/style.scss ./app/styles.css --no-source-map",
+    "watch:css": "sass --watch ./app/Scss/style.scss ./app/styles.css --no-source-map"
+
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
