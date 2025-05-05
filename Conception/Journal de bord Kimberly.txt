@@ -42,7 +42,7 @@ Journal de bord de Kimberly
 		Modification préliminaires à blog list, blogcard, et blogdétail
 		Installer Logo
 		Correction structure bd
-		ajout sass (fichier, run, watch, et du scss)
+		ajout sass (fichiers, run, watch, et du scss)
 		déplacer dossier images
 		correcfion path
 	}
