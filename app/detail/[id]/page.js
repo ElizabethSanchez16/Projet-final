@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { setLocalStorageLastConsultedMusiqueIdAction } from "../../serversActions/setLocalStorageLastConsultedMusiqueIdAction";
 
+
 export default function PageDetailMusiqueId() {
   const { id } = useParams();
   const [musiqueDetail, setMusiqueDetail] = useState(null);
@@ -58,10 +59,15 @@ export default function PageDetailMusiqueId() {
   }
 
   if (musiqueDetail) {
+    const isAbsoluteURL = musiqueDetail.imageUrl.startsWith('http://') || musiqueDetail.imageUrl.startsWith('https://');
+    const imageSource = isAbsoluteURL ? musiqueDetail.imageUrl : `../${musiqueDetail.imageUrl}`;
+
     return (
       <>
         <Header />
-        <img className="cover img-fluid" src={musiqueDetail.imageUrl} alt={musiqueDetail.titre} />
+        <div className="cover-container">
+          <img className="cover-img" src={imageSource} alt={musiqueDetail.titre} />
+        </div>
         <h1 className="titre">{musiqueDetail.titre}</h1>
         <h2 className="artiste">Artiste: {musiqueDetail.artiste}</h2>
         {musiqueDetail.album && <h3 className="album">Album: {musiqueDetail.album}</h3>}

@@ -44,4 +44,5 @@ Journal de bord de Kimberly
 		Correction structure bd
 		ajout sass (fichier, run, watch, et du scss)
 		déplacer dossier images
+		correcfion path
 	}
