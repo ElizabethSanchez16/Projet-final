@@ -35,3 +35,8 @@ Journal de bord de Kimberly
 		Ajout panier, et liens au Header
 		Travail sur les form administration
 	}
+
+20250505
+	{
+		Récupération des logos pour le site
+	}
