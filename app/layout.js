@@ -6,8 +6,8 @@ import "bootstrap/dist/css/bootstrap.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "The Movie Database",
-  description: "A great place to search for movies!",
+  title: "Vinyl Haven",
+  description: "A great place to search for classic Vinyls!",
 };
 
 export default function RootLayout({ children }) {

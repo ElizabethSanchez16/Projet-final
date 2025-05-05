@@ -1,4 +1,4 @@
-//app\actions\addMovieAction.js
+// app/serversActions/ajoutMusiqueAction.js
 'use server';
 
 export async function ajoutMusiqueAction(prevState, formData) {
@@ -11,45 +11,69 @@ export async function ajoutMusiqueAction(prevState, formData) {
 
     try {
         const titre = formData.get('titre');
-        const description = formData.get('description');
-        const imageUrl = formData.get('imageUrl');
+        const album = formData.get('album');
+        const artiste = formData.get('artiste');
+        const genre = formData.get('genre');
+        const annee = formData.get('annee');
+        const format = formData.get('format');
         const duration = formData.get('duration');
+        const prix = formData.get('prix');
+        const imageUrl = formData.get('imageUrl');
+        const extraitUrl = formData.get('extraitUrl');
+        const disponible = formData.get('disponible');
+        const deleted = formData.get('deleted') === 'true'; // Convertir en booléen
 
         console.log("Titre:", titre);
-        console.log("Description:", description);
-        console.log("Image URL:", imageUrl);
+        console.log("Album:", album);
+        console.log("Artiste:", artiste);
+        console.log("Genre:", genre);
+        console.log("Année:", annee);
+        console.log("Format:", format);
         console.log("Durée:", duration);
+        console.log("Prix:", prix);
+        console.log("Image URL:", imageUrl);
+        console.log("Extrait URL:", extraitUrl);
+        console.log("Disponible:", disponible);
+        console.log("Deleted:", deleted);
 
-        if (!titre || !description) {
-            return { error: "Erreur: Le titre et la description sont obligatoires." };
+        if (!titre || !album || !artiste || !genre || !annee || !format || !prix || !disponible) {
+            return { error: "Erreur: Tous les champs marqués d'un astérisque sont obligatoires." };
         }
 
-        const newFilm = {
+        const newMusique = {
             titre,
-            description,
-            imageUrl,
+            album,
+            artiste,
+            genre: [genre], // Assurez-vous que le backend gère un tableau de genres
+            annee: parseInt(annee),
             duration,
-            deleted: false,
+            imageUrl,
+            extraitUrl,
+            tours33: format === '33tours',
+            tours45: format === '45tours',
+            disponible: parseInt(disponible),
+            deleted,
+            prix: parseFloat(prix),
         };
 
-        const response = await fetch("http://localhost:3001/films", {
+        const response = await fetch("http://localhost:3001/musiques", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify(newFilm),
+            body: JSON.stringify(newMusique),
         });
 
         if (response.ok) {
             return { success: true };
         } else {
-            console.error("Erreur lors de l'ajout du film (HTTP):", response.status);
+            console.error("Erreur lors de l'ajout de la musique (HTTP):", response.status);
             const errorData = await response.json();
             console.error("Détails de l'erreur:", errorData);
-            return { error: `Erreur lors de l'ajout du film: ${response.status}` };
+            return { error: `Erreur lors de l'ajout de la musique: ${response.status}` };
         }
     } catch (error) {
-        console.error("Erreur lors de l'ajout du film (Exception):", error);
-        return { error: "Erreur réseau lors de l'ajout du film." };
+        console.error("Erreur lors de l'ajout de la musique (Exception):", error);
+        return { error: "Erreur réseau lors de l'ajout de la musique." };
     }
 }

@@ -13,7 +13,7 @@ export default function BlogList({ musiques }) {
                         album={musique.album}
                         artiste={musique.artiste}
                         genre={musique.genre}
-                        année={musique.annee}
+                        annee={musique.annee}
                         duration={musique.duration}
                         imageUrl={musique.imageUrl}
                         extraitUrl={musique.extraitUrl}

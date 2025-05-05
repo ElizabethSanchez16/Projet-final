@@ -45,4 +45,7 @@ Journal de bord de Kimberly
 		ajout sass (fichiers, run, watch, et du scss)
 		déplacer dossier images
 		correcfion path
+		retrait movies
+		Ajout vinyls 
+		test ajout
 	}

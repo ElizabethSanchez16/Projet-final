@@ -72,7 +72,7 @@ export default function PageDetailMusiqueId() {
         <h2 className="artiste">Artiste: {musiqueDetail.artiste}</h2>
         {musiqueDetail.album && <h3 className="album">Album: {musiqueDetail.album}</h3>}
         {musiqueDetail.genre && <p className="genre">Genre: {musiqueDetail.genre.join(', ')}</p>}
-        <p className="annee">Année: {musiqueDetail.année}</p>
+        <p className="annee">Année: {musiqueDetail.annee}</p>
         <p className="duration">Durée: {musiqueDetail.duration}</p>
         <p className="prix">Prix: {musiqueDetail.prix} $</p>
         <p className="disponible">Disponible: {musiqueDetail.disponible}</p>

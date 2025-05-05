@@ -1,0 +1,14 @@
+{
+  "titre": "Discovery",
+  "album": "Discovery",
+  "artiste": "Daft Punk",
+  "genre": "Electronic",
+  "année": 2001,
+  "format": "33tours",
+  "duration": "1:01:19",
+  "prix": 39.99,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+  "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+  "disponible": 10,
+  "deleted": false
+}

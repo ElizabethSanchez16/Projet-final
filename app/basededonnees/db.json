@@ -1,94 +1,4 @@
 {
-  "films": [
-    {
-      "id": "1",
-      "titre": "Avatar 2",
-      "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/105897632-1557241558937avatar-e1541360922907.jpg?v=1664130328&w=1920&h=1080",
-      "duration": "2h 42m",
-      "deleted": false
-    },
-    {
-      "id": "2",
-      "titre": "The Dark Knight",
-      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      "imageUrl": "https://images.ladepeche.fr/api/v1/images/view/5c34d2f53e454659430d33a5/large/image.jpg",
-      "duration": "2h 32m",
-      "deleted": false
-    },
-    {
-      "id": "3",
-      "titre": "Avengers Endgame",
-      "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-      "imageUrl": "https://cdn.vox-cdn.com/thumbor/Ud01bY7Cq96hTiS6CPRjc2rngXw=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg",
-      "duration": "3h 1m",
-      "deleted": false
-    },
-    {
-      "id": "4",
-      "titre": "Skyfall",
-      "description": "James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
-      "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTk4NTQ1Mzc1NV5BMl5BanBnXkFtZTgwODQ2NzA0NDE@._V1_.jpg",
-      "duration": "2h 23m",
-      "deleted": false
-    },
-    {
-      "id": "5",
-      "titre": "Moana",
-      "description": "Viana en France",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/105897632-1557241558937avatar-e1541360922907.jpg?v=1664130328&w=1920&h=1080",
-      "duration": "1h 47m",
-      "deleted": true
-    },
-    {
-      "id": "6",
-      "titre": "La reine des neiges",
-      "description": "L'action se déroule à Arendelle",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/105897632-1557241558937avatar-e1541360922907.jpg?v=1664130328&w=1920&h=1080",
-      "duration": "1h 42m",
-      "deleted": true
-    },
-    {
-      "id": "9732",
-      "titre": "13e film du 7e art",
-      "description": "Le 13 porte malheur",
-      "imageUrl": "https://cdn.vox-cdn.com/thumbor/Ud01bY7Cq96hTiS6CPRjc2rngXw=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg",
-      "duration": "6h78m",
-      "deleted": true
-    },
-    {
-      "id": "e07c",
-      "titre": "10e film du 7e art",
-      "description": "asd",
-      "imageUrl": "",
-      "duration": "6h78m + bonus",
-      "deleted": true
-    },
-    {
-      "id": "d2c2",
-      "titre": "10e film du 7e art",
-      "description": "ad",
-      "imageUrl": "https://cdn.vox-cdn.com/thumbor/Ud01bY7Cq96hTiS6CPRjc2rngXw=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg",
-      "duration": "6h78m + bonus",
-      "deleted": true
-    },
-    {
-      "id": "5ad0",
-      "titre": "11e film du 7e art",
-      "description": "ad",
-      "imageUrl": "https://cdn.vox-cdn.com/thumbor/Ud01bY7Cq96hTiS6CPRjc2rngXw=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg",
-      "duration": "6h78m + bonus",
-      "deleted": true
-    },
-    {
-      "id": "2baa",
-      "titre": "11e film du 7e art",
-      "description": "ads",
-      "imageUrl": "https://cdn.vox-cdn.com/thumbor/Ud01bY7Cq96hTiS6CPRjc2rngXw=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15969338/surprise_marvel_releases_a_new_full_trailer_and_poster_for_avengers_endgame_social.jpg",
-      "duration": "6h78m + bonus",
-      "deleted": false
-    }
-  ],
   "musiques": [
     {
       "id": "1",
@@ -100,7 +10,7 @@
         "Pop",
         "Psychédélique"
       ],
-      "année": 1967,
+      "annee": 1967,
       "duration": "0h 39m 51s",
       "imageUrl": "http://www.beatlesebooks.com/files/1619622/uploaded/sgt%20peper%20capitol%20label%20side%20one.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=R7dQjOCLQI8",
@@ -108,7 +18,7 @@
       "tours45": false,
       "disponible": 4,
       "deleted": false,
-      "prix": 35
+      "prix": 35.50
     },
     {
       "id": "2",
@@ -121,7 +31,7 @@
         "Funk",
         "Rock"
       ],
-      "année": 1982,
+      "annee": 1982,
       "duration": "0h 42m 19s",
       "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F2%2F0%2F4%2F1%2F22041061%5D%2Csizedata%5B850x600%5D&call=url%5Bfile%3Aproduct.chain%5D",
       "extraitUrl": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
@@ -129,7 +39,7 @@
       "tours45": false,
       "disponible": 6,
       "deleted": false,
-      "prix": 28
+      "prix": 28.75
     },
     {
       "id": "3",
@@ -140,7 +50,7 @@
         "Progressive Rock",
         "Art Rock"
       ],
-      "année": 1973,
+      "annee": 1973,
       "duration": "0h 42m 49s",
       "imageUrl": "https://encorerecords.ca/cdn/shop/files/81gjeiHQMSL._AC_SL1500.jpg?v=1697131592&width=600",
       "extraitUrl": "https://www.youtube.com/watch?v=JwYX52BP2Sk",
@@ -148,7 +58,7 @@
       "tours45": false,
       "disponible": 7,
       "deleted": false,
-      "prix": 40
+      "prix": 40.25
     },
     {
       "id": "4",
@@ -160,7 +70,7 @@
         "Heavy Metal",
         "Folk Rock"
       ],
-      "année": 1971,
+      "annee": 1971,
       "duration": "0h 42m 34s",
       "imageUrl": "images/LedZeppelinIV.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=0hLESLXqBLI",
@@ -168,7 +78,7 @@
       "tours45": false,
       "disponible": 9,
       "deleted": false,
-      "prix": 32
+      "prix": 32.99
     },
     {
       "id": "5",
@@ -179,7 +89,7 @@
         "Grunge",
         "Alternative Rock"
       ],
-      "année": 1991,
+      "annee": 1991,
       "duration": "0h 42m 24s",
       "imageUrl": "images/nirvana-nevermind-blackvinyl.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=pkcJEvMcnEg",
@@ -187,7 +97,7 @@
       "tours45": false,
       "disponible": 5,
       "deleted": false,
-      "prix": 30
+      "prix": 30.50
     },
     {
       "id": "6",
@@ -198,7 +108,7 @@
         "Rock",
         "Opéra Rock"
       ],
-      "année": 1975,
+      "annee": 1975,
       "duration": "0h 05m 55s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Bohemian_Rhapsody_by_Queen_US_vinyl_red_label.png/250px-Bohemian_Rhapsody_by_Queen_US_vinyl_red_label.png",
       "extraitUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
@@ -206,7 +116,7 @@
       "tours45": true,
       "disponible": 15,
       "deleted": false,
-      "prix": 15
+      "prix": 15.99
     },
     {
       "id": "7",
@@ -216,7 +126,7 @@
       "genre": [
         "Rock and Roll"
       ],
-      "année": 1956,
+      "annee": 1956,
       "duration": "0h 02m 16s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Big-mama-thornton-hound-dog.jpg/250px-Big-mama-thornton-hound-dog.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=-eHJ12Vhpyc",
@@ -224,7 +134,7 @@
       "tours45": true,
       "disponible": 11,
       "deleted": false,
-      "prix": 12
+      "prix": 12.50
     },
     {
       "id": "8",
@@ -234,7 +144,7 @@
       "genre": [
         "Folk Rock"
       ],
-      "année": 1965,
+      "annee": 1965,
       "duration": "0h 06m 13s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Gates_of_Eden_cover.jpg/250px-Gates_of_Eden_cover.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=IwOfCgkyEj0",
@@ -242,7 +152,7 @@
       "tours45": true,
       "disponible": 0,
       "deleted": false,
-      "prix": 18
+      "prix": 18.25
     },
     {
       "id": "9",
@@ -253,7 +163,7 @@
         "Surf Rock",
         "Psychedelic Pop"
       ],
-      "année": 1966,
+      "annee": 1966,
       "duration": "0h 03m 39s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Good_Vibrations_single.jpg/250px-Good_Vibrations_single.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=apBWI6xrbLY",
@@ -261,7 +171,7 @@
       "tours45": true,
       "disponible": 8,
       "deleted": false,
-      "prix": 14
+      "prix": 14.75
     },
     {
       "id": "10",
@@ -273,7 +183,7 @@
         "R&B",
         "Funk"
       ],
-      "année": 1983,
+      "annee": 1983,
       "duration": "0h 04m 54s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Billie_Jean_US_7-inch_vinyl_Side-A.jpg/250px-Billie_Jean_US_7-inch_vinyl_Side-A.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
@@ -281,7 +191,7 @@
       "tours45": true,
       "disponible": 12,
       "deleted": false,
-      "prix": 16
+      "prix": 16.50
     },
     {
       "id": "11",
@@ -292,7 +202,7 @@
         "Rock",
         "Pop"
       ],
-      "année": 1977,
+      "annee": 1977,
       "duration": "0h 40m 01s",
       "imageUrl": "https://images.urbndata.com/is/image/UrbanOutfitters/92354091_040_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=540",
       "extraitUrl": "https://www.youtube.com/watch?v=-uFU79MGj00",
@@ -300,7 +210,25 @@
       "tours45": false,
       "disponible": 0,
       "deleted": true,
-      "prix": 38
+      "prix": 38.99
+    },
+    {
+      "id": "cce9",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2000,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39.75
     }
   ],
   "lecteurs": [
@@ -308,7 +236,7 @@
       "id": "1",
       "nom": "Audio-Technica AT-LP60XBT-BK",
       "marque": "Audio-Technica",
-      "prix": 299,
+      "prix": 299.99,
       "caracteristiques": [
         "Connectivité Bluetooth",
         "Fonctionnement entièrement automatique avec deux vitesses : 33-1/3 et 45 RPM",

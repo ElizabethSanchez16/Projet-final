@@ -7,7 +7,7 @@ import { deleteMusiqueAction } from "../serversActions/deleteMusiqueAction";
 import { getLocalStorageLastConsultedMusiqueIdAction } from "../serversActions/getLocalStorageLastconsultedMusiqueIdAction";
 import styles from '../../app/styles.css';
 
-export default function BlogCard({ key, titre, album, artiste, genre, année, duration, imageUrl, extraitUrl, tours33, tours45, disponible, deleted, prix, id, className, onDelete }) {
+export default function BlogCard({ key, titre, album, artiste, genre, annee, duration, imageUrl, extraitUrl, tours33, tours45, disponible, deleted, prix, id, className, onDelete }) {
     const [isLastConsulted, setIsLastConsulted] = useState(false);
     const [isPending, startTransition] = useTransition();
 
@@ -39,7 +39,7 @@ export default function BlogCard({ key, titre, album, artiste, genre, année, du
                     <p className="card-text">Artiste: {artiste}</p>
                     {album && <p className="card-text">Album: {album}</p>} {/* Afficher l'album s'il existe */}
                     {genre && <p className="card-text">Genre: {genre.join(', ')}</p>} {/* Afficher les genres */}
-                    <p className="card-text">Année: {année}</p>
+                    <p className="card-text">Année: {annee}</p>
                     <p className="card-text">Durée: {duration}</p>
                     <p className="card-text">Prix: {prix} $</p>
                     <p className="card-text">Disponible: {disponible}</p>
