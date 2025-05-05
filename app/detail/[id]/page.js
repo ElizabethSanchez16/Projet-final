@@ -3,47 +3,47 @@
 import Header from "../../components/Header";
 import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
-import { setLocalStorageLastConsultedMovieIdAction } from "../../serversActions/setLocalStorageLastConsultedMovieIdAction";
+import { setLocalStorageLastConsultedMusiqueIdAction } from "../../serversActions/setLocalStorageLastConsultedMusiqueIdAction";
 
-export default function PageDetailId() {
+export default function PageDetailMusiqueId() {
   const { id } = useParams();
-  const [filmDetail, setFilmDetail] = useState(null);
+  const [musiqueDetail, setMusiqueDetail] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchFilmDetails = async () => {
+    const fetchMusiqueDetails = async () => {
       try {
-        const response = await fetch(`http://localhost:3001/films/${id}`);
+        const response = await fetch(`http://localhost:3001/musiques/${id}`);
         if (!response.ok) {
           if (response.status === 404) {
-            setError("Film non trouvé.");
+            setError("Musique non trouvé.");
           } else {
             throw new Error(`Erreur HTTP! statut: ${response.status}`);
           }
           return;
         }
         const data = await response.json();
-        setFilmDetail(data);
+        setMusiqueDetail(data);
         setLoading(false);
 
-        setLocalStorageLastConsultedMovieIdAction(id);
+        setLocalStorageLastConsultedMusiqueIdAction(id);
 
-  
+
       } catch (e) {
-        setError("Impossible de charger les détails du film.");
+        setError("Impossible de charger les détails de la musique.");
         setLoading(false);
       }
     };
 
-    fetchFilmDetails();
+    fetchMusiqueDetails();
   }, [id]);
 
   if (loading) {
     return (
       <>
         <Header />
-        <div>Chargement des détails du film...</div>
+        <div>Chargement des détails de la musique...</div>
       </>
     );
   }
@@ -57,14 +57,20 @@ export default function PageDetailId() {
     );
   }
 
-  if (filmDetail) {
+  if (musiqueDetail) {
     return (
       <>
         <Header />
-        <img className="cover img-fluid" src={filmDetail.imageUrl} alt={filmDetail.titre} />
-        <h1 className="titre">{filmDetail.titre}</h1>
-        <h2 className="duration">Durée: {filmDetail.duration}</h2>
-        <p className="description">{filmDetail.description}</p>
+        <img className="cover img-fluid" src={musiqueDetail.imageUrl} alt={musiqueDetail.titre} />
+        <h1 className="titre">{musiqueDetail.titre}</h1>
+        <h2 className="artiste">Artiste: {musiqueDetail.artiste}</h2>
+        {musiqueDetail.album && <h3 className="album">Album: {musiqueDetail.album}</h3>}
+        {musiqueDetail.genre && <p className="genre">Genre: {musiqueDetail.genre.join(', ')}</p>}
+        <p className="annee">Année: {musiqueDetail.année}</p>
+        <p className="duration">Durée: {musiqueDetail.duration}</p>
+        <p className="prix">Prix: {musiqueDetail.prix} $</p>
+        <p className="disponible">Disponible: {musiqueDetail.disponible}</p>
+        <p className="vitesse">Vitesse: {musiqueDetail.tours33 ? '33 tours' : ''} {musiqueDetail.tours45 ? (musiqueDetail.tours33 ? ' / 45 tours' : '45 tours') : ''}</p>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossOrigin="anonymous"></script>
       </>
     );
@@ -72,7 +78,7 @@ export default function PageDetailId() {
     return (
       <>
         <Header />
-        <div>Impossible de charger les détails du film.</div>
+        <div>Impossible de charger les détails de la musique.</div>
       </>
     )
   }

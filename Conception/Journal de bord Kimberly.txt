@@ -39,4 +39,6 @@ Journal de bord de Kimberly
 20250505
 	{
 		Récupération des logos pour le site
+		Modification préliminaires à blog list, blogcard, et blogdétail
+		Installer Logo
 	}

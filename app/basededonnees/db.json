@@ -95,176 +95,212 @@
       "titre": "Sgt. Pepper's Lonely Hearts Club Band",
       "album": "Sgt. Pepper's Lonely Hearts Club Band",
       "artiste": "The Beatles",
-      "genre": ["Rock", "Pop", "Psychédélique"],
+      "genre": [
+        "Rock",
+        "Pop",
+        "Psychédélique"
+      ],
       "année": 1967,
       "duration": "0h 39m 51s",
       "imageUrl": "http://www.beatlesebooks.com/files/1619622/uploaded/sgt%20peper%20capitol%20label%20side%20one.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=R7dQjOCLQI8",
-      "33tours": true,
-      "45tours": false,
+      "tours33": true,
+      "tours45": false,
       "disponible": 4,
       "deleted": false,
-      "prix": 35.00
+      "prix": 35
     },
     {
       "id": "2",
       "titre": "Thriller",
       "album": "Thriller",
       "artiste": "Michael Jackson",
-      "genre": ["Pop", "R&B", "Funk", "Rock"],
+      "genre": [
+        "Pop",
+        "R&B",
+        "Funk",
+        "Rock"
+      ],
       "année": 1982,
       "duration": "0h 42m 19s",
       "imageUrl": "https://dyn1.heritagestatic.com/lf?set=path%5B2%2F2%2F0%2F4%2F1%2F22041061%5D%2Csizedata%5B850x600%5D&call=url%5Bfile%3Aproduct.chain%5D",
       "extraitUrl": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
-      "33tours": true,
-      "45tours": false,
+      "tours33": true,
+      "tours45": false,
       "disponible": 6,
       "deleted": false,
-      "prix": 28.00
+      "prix": 28
     },
     {
       "id": "3",
       "titre": "The Dark Side of the Moon",
       "album": "The Dark Side of the Moon",
       "artiste": "Pink Floyd",
-      "genre": ["Progressive Rock", "Art Rock"],
+      "genre": [
+        "Progressive Rock",
+        "Art Rock"
+      ],
       "année": 1973,
       "duration": "0h 42m 49s",
       "imageUrl": "https://encorerecords.ca/cdn/shop/files/81gjeiHQMSL._AC_SL1500.jpg?v=1697131592&width=600",
       "extraitUrl": "https://www.youtube.com/watch?v=JwYX52BP2Sk",
-      "33tours": true,
-      "45tours": false,
+      "tours33": true,
+      "tours45": false,
       "disponible": 7,
       "deleted": false,
-      "prix": 40.00
+      "prix": 40
     },
     {
       "id": "4",
       "titre": "Led Zeppelin IV",
       "album": "Led Zeppelin IV",
       "artiste": "Led Zeppelin",
-      "genre": ["Hard Rock", "Heavy Metal", "Folk Rock"],
+      "genre": [
+        "Hard Rock",
+        "Heavy Metal",
+        "Folk Rock"
+      ],
       "année": 1971,
       "duration": "0h 42m 34s",
-      "imageUrl": "../app/basededonnees/images/LedZeppelinIV.jpg",
+      "imageUrl": "images/LedZeppelinIV.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=0hLESLXqBLI",
-      "33tours": true,
-      "45tours": false,
+      "tours33": true,
+      "tours45": false,
       "disponible": 9,
       "deleted": false,
-      "prix": 32.00
+      "prix": 32
     },
     {
       "id": "5",
       "titre": "Nevermind",
       "album": "Nevermind",
       "artiste": "Nirvana",
-      "genre": ["Grunge", "Alternative Rock"],
+      "genre": [
+        "Grunge",
+        "Alternative Rock"
+      ],
       "année": 1991,
       "duration": "0h 42m 24s",
-      "imageUrl": "../app/basededonnees/images/nirvana-nevermind-blackvinyl-2_1000x1000.jpg",
+      "imageUrl": "images/nirvana-nevermind-blackvinyl.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=pkcJEvMcnEg",
-      "33tours": true,
-      "45tours": false,
+      "tours33": true,
+      "tours45": false,
       "disponible": 5,
       "deleted": false,
-      "prix": 30.00
+      "prix": 30
     },
     {
       "id": "6",
       "titre": "Bohemian Rhapsody / I'm in Love with My Car",
       "album": null,
       "artiste": "Queen",
-      "genre": ["Rock", "Opéra Rock"],
+      "genre": [
+        "Rock",
+        "Opéra Rock"
+      ],
       "année": 1975,
       "duration": "0h 05m 55s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Bohemian_Rhapsody_by_Queen_US_vinyl_red_label.png/250px-Bohemian_Rhapsody_by_Queen_US_vinyl_red_label.png",
       "extraitUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
-      "33tours": false,
-      "45tours": true,
+      "tours33": false,
+      "tours45": true,
       "disponible": 15,
       "deleted": false,
-      "prix": 15.00
+      "prix": 15
     },
     {
       "id": "7",
       "titre": "Hound Dog / Don't Be Cruel",
       "album": null,
       "artiste": "Elvis Presley",
-      "genre": ["Rock and Roll"],
+      "genre": [
+        "Rock and Roll"
+      ],
       "année": 1956,
       "duration": "0h 02m 16s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Big-mama-thornton-hound-dog.jpg/250px-Big-mama-thornton-hound-dog.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=-eHJ12Vhpyc",
-      "33tours": false,
-      "45tours": true,
+      "tours33": false,
+      "tours45": true,
       "disponible": 11,
       "deleted": false,
-      "prix": 12.00
+      "prix": 12
     },
     {
       "id": "8",
       "titre": "Like a Rolling Stone / Gates of Eden",
       "album": null,
       "artiste": "Bob Dylan",
-      "genre": ["Folk Rock"],
+      "genre": [
+        "Folk Rock"
+      ],
       "année": 1965,
       "duration": "0h 06m 13s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Gates_of_Eden_cover.jpg/250px-Gates_of_Eden_cover.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=IwOfCgkyEj0",
-      "33tours": false,
-      "45tours": true,
+      "tours33": false,
+      "tours45": true,
       "disponible": 0,
       "deleted": false,
-      "prix": 18.00
+      "prix": 18
     },
     {
       "id": "9",
       "titre": "Good Vibrations / Let's Go Away for Awhile",
       "album": null,
       "artiste": "The Beach Boys",
-      "genre": ["Surf Rock", "Psychedelic Pop"],
+      "genre": [
+        "Surf Rock",
+        "Psychedelic Pop"
+      ],
       "année": 1966,
       "duration": "0h 03m 39s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Good_Vibrations_single.jpg/250px-Good_Vibrations_single.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=apBWI6xrbLY",
-      "33tours": false,
-      "45tours": true,
+      "tours33": false,
+      "tours45": true,
       "disponible": 8,
       "deleted": false,
-      "prix": 14.00
+      "prix": 14
     },
     {
       "id": "10",
       "titre": "Billie Jean / Beat It",
       "album": "Thriller",
       "artiste": "Michael Jackson",
-      "genre": ["Pop", "R&B", "Funk"],
+      "genre": [
+        "Pop",
+        "R&B",
+        "Funk"
+      ],
       "année": 1983,
       "duration": "0h 04m 54s",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Billie_Jean_US_7-inch_vinyl_Side-A.jpg/250px-Billie_Jean_US_7-inch_vinyl_Side-A.jpg",
       "extraitUrl": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
-      "33tours": false,
-      "45tours": true,
+      "tours33": false,
+      "tours45": true,
       "disponible": 12,
       "deleted": false,
-      "prix": 16.00
+      "prix": 16
     },
     {
       "id": "11",
       "titre": "Rumours",
       "album": "Rumours",
       "artiste": "Fleetwood Mac",
-      "genre": ["Rock", "Pop"],
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
       "année": 1977,
       "duration": "0h 40m 01s",
       "imageUrl": "https://images.urbndata.com/is/image/UrbanOutfitters/92354091_040_d?$xlarge$&fit=constrain&fmt=webp&qlt=80&wid=540",
       "extraitUrl": "https://www.youtube.com/watch?v=-uFU79MGj00",
-      "33tours": true,
-      "45tours": false,
+      "tours33": true,
+      "tours45": false,
       "disponible": 0,
       "deleted": true,
-      "prix": 38.00
+      "prix": 38
     }
   ],
   "lecteurs": [
@@ -272,7 +308,7 @@
       "id": "1",
       "nom": "Audio-Technica AT-LP60XBT-BK",
       "marque": "Audio-Technica",
-      "prix": 299.00,
+      "prix": 299,
       "caracteristiques": [
         "Connectivité Bluetooth",
         "Fonctionnement entièrement automatique avec deux vitesses : 33-1/3 et 45 RPM",
@@ -291,14 +327,14 @@
       "prix": 295.99,
       "caracteristiques": [
         "Système 7-en-1 : lecteur vinyle, Bluetooth, radio AM/FM, lecteur CD, entrée Aux, sortie RCA/casque, enregistrement vinyle/CD vers MP3 et lecture USB",
-         "3 vitesses : 33, 45 et 78 RPM",
+        "3 vitesses : 33, 45 et 78 RPM",
         "Meuble en bois fabriqué à la main et accordé acoustiquement",
         "Enregistrement vinyle et CD vers MP3",
         "Son stéréo riche remplissant la pièce"
       ],
       "imageUrl": "../app/basededonnees/images/electrohome.jpg",
       "disponible": 12
-    }, 
+    },
     {
       "id": "3",
       "nom": "Victrola Revolution GO",
@@ -321,4 +357,3 @@
     }
   ]
 }
-

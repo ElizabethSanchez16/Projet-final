@@ -1,18 +1,28 @@
-// app/components/BlogList.js
+//app\components\BlogList.js
 import BlogCard from "../components/BlogCard";
 
-export default function BlogList({ films }) {
+export default function BlogList({ musiques }) {
     return (
         <div className="row">
-            {films
-                .filter(film => !film.deleted) // Filtrer les films où 'deleted' est false (ou absent)
-                .map((film, index) => (
+            {musiques
+                .filter(musique => !musique.deleted)
+                .map((musique, index) => (
                     <BlogCard
                         key={index}
-                        titre={film.titre}
-                        description={film.description}
-                        imageUrl={film.imageUrl}
-                        id={film.id} // Assurez-vous que vos objets 'film' ont une propriété 'id'
+                        titre={musique.titre}
+                        album={musique.album}
+                        artiste={musique.artiste}
+                        genre={musique.genre}
+                        année={musique.annee}
+                        duration={musique.duration}
+                        imageUrl={musique.imageUrl}
+                        extraitUrl={musique.extraitUrl}
+                        tours33={musique.tours33}
+                        tours45={musique.tours45}
+                        disponible={musique.disponible}
+                        deleted={musique.deleted}
+                        prix={musique.prix}
+                        id={musique.id}
                         className="card col-lg-4 col-12"
                     />
                 ))}
