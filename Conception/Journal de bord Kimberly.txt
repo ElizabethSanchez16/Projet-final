@@ -66,3 +66,9 @@ Journal de bord de Kimberly
 		Ajout mini lecteur Youtube
 		00:14
 	}
+
+20250506
+	{
+		Retrait Lecteurs de BD
+		
+	}
