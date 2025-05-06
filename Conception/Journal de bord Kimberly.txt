@@ -54,4 +54,7 @@ Journal de bord de Kimberly
 		test suppprimer
 		fenetre de modification
 		refresh de la page pour champs et liste déroulante
+		Ajout profil.json pour la sécurité
+		redirection et page de connection
+		Ajout bouton à Header
 	}
