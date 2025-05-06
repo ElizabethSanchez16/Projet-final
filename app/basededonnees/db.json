@@ -18,7 +18,7 @@
       "tours45": false,
       "disponible": 4,
       "deleted": false,
-      "prix": 35.5
+      "prix": 35.99
     },
     {
       "id": "2",
@@ -39,7 +39,7 @@
       "tours45": false,
       "disponible": 6,
       "deleted": false,
-      "prix": 28.75
+      "prix": 28.99
     },
     {
       "id": "3",
@@ -58,7 +58,7 @@
       "tours45": false,
       "disponible": 7,
       "deleted": false,
-      "prix": 40.25
+      "prix": 40.99
     },
     {
       "id": "4",
@@ -97,7 +97,7 @@
       "tours45": false,
       "disponible": 5,
       "deleted": false,
-      "prix": 30.5
+      "prix": 30.99
     },
     {
       "id": "6",
@@ -134,7 +134,7 @@
       "tours45": true,
       "disponible": 11,
       "deleted": false,
-      "prix": 12.5
+      "prix": 12.99
     },
     {
       "id": "8",
@@ -152,7 +152,7 @@
       "tours45": true,
       "disponible": 0,
       "deleted": false,
-      "prix": 18.25
+      "prix": 18.99
     },
     {
       "id": "9",
@@ -171,7 +171,7 @@
       "tours45": true,
       "disponible": 8,
       "deleted": false,
-      "prix": 14.75
+      "prix": 14.99
     },
     {
       "id": "10",
@@ -191,7 +191,7 @@
       "tours45": true,
       "disponible": 12,
       "deleted": false,
-      "prix": 16.5
+      "prix": 16.99
     },
     {
       "id": "11",
@@ -246,7 +246,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "b130",
@@ -264,7 +264,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "aa4c",
@@ -282,7 +282,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "d9d8",
@@ -300,7 +300,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "82ac",
@@ -318,25 +318,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
-    },
-    {
-      "id": "f89b",
-      "titre": "Discovery",
-      "album": "Discovery",
-      "artiste": "Daft Punk",
-      "genre": [
-        "Electronic"
-      ],
-      "annee": 2001,
-      "duration": "1:01:19",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
-      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
-      "tours33": true,
-      "tours45": false,
-      "disponible": 10,
-      "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "a15d",
@@ -354,7 +336,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "a345",
@@ -372,7 +354,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "c3f3",
@@ -390,7 +372,7 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39.99
     },
     {
       "id": "5aba",
@@ -679,59 +661,6 @@
       "disponible": 10,
       "deleted": false,
       "prix": 39
-    }
-  ],
-  "lecteurs": [
-    {
-      "id": "lecteur1",
-      "nom": "Audio-Technica AT-LP60XBT-BK",
-      "marque": "Audio-Technica",
-      "prix": 299.99,
-      "caracteristiques": [
-        "Connectivité Bluetooth",
-        "Fonctionnement entièrement automatique avec deux vitesses : 33-1/3 et 45 RPM",
-        "Platine en aluminium moulé sous pression anti-résonance",
-        "Préamplificateur phono commutable intégré pour sortie phono ou niveau ligne",
-        "Base de bras de lecture et porte-cellule redessinées pour un meilleur suivi et une réduction de la résonance",
-        "Compatible avec le codec aptX"
-      ],
-      "imageUrl": "../app/basededonnees/images/NewVinylPlayer.jpg",
-      "disponible": 8
-    },
-    {
-      "id": "lecteur2",
-      "nom": "Electrohome Kingston 7-en-1 Vintage Vinyl Record Player Stereo System (RR75)",
-      "marque": "Electrohome",
-      "prix": 295.99,
-      "caracteristiques": [
-        "Système 7-en-1 : lecteur vinyle, Bluetooth, radio AM/FM, lecteur CD, entrée Aux, sortie RCA/casque, enregistrement vinyle/CD vers MP3 et lecture USB",
-        "3 vitesses : 33, 45 et 78 RPM",
-        "Meuble en bois fabriqué à la main et accordé acoustiquement",
-        "Enregistrement vinyle et CD vers MP3",
-        "Son stéréo riche remplissant la pièce"
-      ],
-      "imageUrl": "../app/basededonnees/images/electrohome.jpg",
-      "disponible": 12
-    },
-    {
-      "id": "lecteur3",
-      "nom": "Victrola Revolution GO",
-      "marque": "Victrola",
-      "prix": 129.99,
-      "caracteristiques": [
-        "Portable et rechargeable (jusqu'à 12 heures d'autonomie)",
-        "Bluetooth pour la diffusion de musique",
-        "Haut-parleurs stéréo intégrés",
-        "3 vitesses : 33 1/3, 45 et 78 RPM",
-        "Cartouche Audio Technica AT-3600LA",
-        "Vinyl Stream pour diffuser des vinyles vers des haut-parleurs Bluetooth externes",
-        "Poignée rétractable et sangle de guitare amovible pour le transport",
-        "Couvercle amovible servant de support pour 5 vinyles",
-        "Sortie casque 1/8 pouce",
-        "Sortie RCA pour connexion à un système stéréo domestique"
-      ],
-      "imageUrl": "https://victrola.com/cdn/shop/files/Victrola_RevGo_2023_Gray_08-sq.jpg?v=1707335565",
-      "disponible": 54
     }
   ]
 }
