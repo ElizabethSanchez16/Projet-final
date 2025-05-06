@@ -64,7 +64,7 @@ export default function PageDetailMusiqueId() {
     if (musiqueDetail.extraitUrl && musiqueDetail.extraitUrl.includes("watch?v=")) {
       const urlParts = musiqueDetail.extraitUrl.split("watch?v=");
       if (urlParts.length > 1) {
-        videoId = urlParts[1].split("&")[0]; // Récupère l'ID et gère les paramètres supplémentaires
+        videoId = urlParts[1].split("&")[0];
       }
     }
 
@@ -78,8 +78,8 @@ export default function PageDetailMusiqueId() {
         <div className="mini-lecteur-container">
           {embedUrl ? (
             <iframe
-              width="560" // Ajustez la largeur selon vos besoins
-              height="315" // Ajustez la hauteur selon vos besoins
+              width="560"
+              height="315"
               src={embedUrl}
               title="Lecteur YouTube"
               frameBorder="0"
@@ -90,7 +90,6 @@ export default function PageDetailMusiqueId() {
             <div>Aucun extrait vidéo valide disponible.</div>
           )}
         </div>
-        {/* Vous pouvez supprimer les iframes de test statiques ici */}
         <h1 className="titre">{musiqueDetail.titre}</h1>
         <h2 className="artiste">Artiste: {musiqueDetail.artiste}</h2>
         {musiqueDetail.album && <h3 className="album">Album: {musiqueDetail.album}</h3>}
@@ -107,5 +106,5 @@ export default function PageDetailMusiqueId() {
     );
   }
 
-  return null; // Ou un autre rendu par défaut si musiqueDetail est null
+  return null;
 }
