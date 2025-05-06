@@ -48,4 +48,10 @@ Journal de bord de Kimberly
 		retrait movies
 		Ajout vinyls 
 		test ajout
+		Modification et supression
+		Sauvegarde de la db pour test 
+		Test modif
+		test suppprimer
+		fenetre de modification
+		refresh de la page pour champs et liste déroulante
 	}

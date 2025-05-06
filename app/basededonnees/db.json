@@ -18,7 +18,7 @@
       "tours45": false,
       "disponible": 4,
       "deleted": false,
-      "prix": 35.50
+      "prix": 35.5
     },
     {
       "id": "2",
@@ -97,7 +97,7 @@
       "tours45": false,
       "disponible": 5,
       "deleted": false,
-      "prix": 30.50
+      "prix": 30.5
     },
     {
       "id": "6",
@@ -134,7 +134,7 @@
       "tours45": true,
       "disponible": 11,
       "deleted": false,
-      "prix": 12.50
+      "prix": 12.5
     },
     {
       "id": "8",
@@ -191,7 +191,7 @@
       "tours45": true,
       "disponible": 12,
       "deleted": false,
-      "prix": 16.50
+      "prix": 16.5
     },
     {
       "id": "11",
@@ -213,14 +213,13 @@
       "prix": 38.99
     },
     {
-      "id": "cce9",
       "titre": "Discovery",
       "album": "Discovery",
       "artiste": "Daft Punk",
       "genre": [
         "Electronic"
       ],
-      "annee": 2000,
+      "annee": 2001,
       "duration": "1:01:19",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
       "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
@@ -228,7 +227,458 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.75
+      "prix": 39.99,
+      "id": "3437"
+    },
+    {
+      "id": "25ab",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "b130",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "aa4c",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "d9d8",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "82ac",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "f89b",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "a15d",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "a345",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "c3f3",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "5aba",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "b486",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "662d",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "0e07",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "3c31",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "81c9",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "05d7",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "dab8",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "98ed",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "2027",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "f163",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "7278",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "61f8",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "0819",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "a5bd",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
+    },
+    {
+      "id": "f922",
+      "titre": "Discovery",
+      "album": "Discovery",
+      "artiste": "Daft Punk",
+      "genre": [
+        "Electronic"
+      ],
+      "annee": 2001,
+      "duration": "1:01:19",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
+      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+      "tours33": true,
+      "tours45": false,
+      "disponible": 10,
+      "deleted": false,
+      "prix": 39
     }
   ],
   "lecteurs": [
