@@ -62,4 +62,7 @@ Journal de bord de Kimberly
 		test panier
 		header flottant
 		23:41
+		00:02
+		Ajout mini lecteur Youtube
+		00:14
 	}
