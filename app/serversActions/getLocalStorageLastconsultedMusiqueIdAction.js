@@ -3,5 +3,5 @@ export function getLocalStorageLastConsultedMusiqueIdAction() {
     if (typeof window !== 'undefined') {
       return localStorage.getItem("lastConsultedMusique");
     }
-    return null; // Retourne null si on est côté serveur
+    return null;
   }

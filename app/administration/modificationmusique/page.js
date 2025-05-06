@@ -1,6 +1,5 @@
 //administration\modificationmusique\page.js
 "use client";
-import Header from "../../components/Header";
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import ModificationMusiqueForm from "../../components/ModificationMusiqueForm";
@@ -22,7 +21,6 @@ export default async function PageModificationMusique() {
     
     return (
         <>
-            <Header />
             <ModificationMusiqueForm modificationMusiqueAction={modificationMusiqueAction} />
         </>
     );

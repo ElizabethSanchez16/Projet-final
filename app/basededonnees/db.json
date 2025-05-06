@@ -683,7 +683,7 @@
   ],
   "lecteurs": [
     {
-      "id": "1",
+      "id": "lecteur1",
       "nom": "Audio-Technica AT-LP60XBT-BK",
       "marque": "Audio-Technica",
       "prix": 299.99,
@@ -699,7 +699,7 @@
       "disponible": 8
     },
     {
-      "id": "2",
+      "id": "lecteur2",
       "nom": "Electrohome Kingston 7-en-1 Vintage Vinyl Record Player Stereo System (RR75)",
       "marque": "Electrohome",
       "prix": 295.99,
@@ -714,7 +714,7 @@
       "disponible": 12
     },
     {
-      "id": "3",
+      "id": "lecteur3",
       "nom": "Victrola Revolution GO",
       "marque": "Victrola",
       "prix": 129.99,

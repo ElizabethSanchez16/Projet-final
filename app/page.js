@@ -1,9 +1,7 @@
 //app\page.js
 "use client";
-import Header from "./components/Header";
 import BlogList from "./components/BlogList";
 import { useState, useEffect } from "react";
-import { useFormState } from 'react-dom';
 
 export default function PagePrincipale() {
     const [musiques, setMusiques] = useState([]);
@@ -32,7 +30,6 @@ export default function PagePrincipale() {
     if (loading) {
         return (
             <>
-                <Header />
                 <div>Chargement de la liste des musiques...</div>
             </>
         );
@@ -41,7 +38,6 @@ export default function PagePrincipale() {
     if (error) {
         return (
             <>
-                <Header />
                 <div>Erreur: {error}</div>
             </>
         );
@@ -49,7 +45,6 @@ export default function PagePrincipale() {
 
     return (
         <>
-                <Header />
                 <BlogList musiques={musiques} />
         </>
     );

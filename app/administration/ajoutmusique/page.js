@@ -1,13 +1,11 @@
 // app/administration/ajoutmusique/page.js
 "use client";
-
-import Header from "../../components/Header";
 import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import AjoutMusiqueForm from "../../components/AjoutMusiqueForm";
 import { ajoutMusiqueAction } from "../../serversActions/ajoutMusiqueAction";
 
-export default function PageAjoutMusique() { // Suppression de 'async' ici
+export default function PageAjoutMusique() {
   const router = useRouter();
 
   useEffect(() => {
@@ -20,7 +18,6 @@ export default function PageAjoutMusique() { // Suppression de 'async' ici
 
   return (
     <>
-      <Header />
       <AjoutMusiqueForm ajoutMusiqueAction={ajoutMusiqueAction} />
     </>
   );

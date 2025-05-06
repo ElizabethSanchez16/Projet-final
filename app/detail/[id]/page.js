@@ -1,6 +1,5 @@
 //app\detail\[id]\page.js
 "use client";
-import Header from "../../components/Header";
 import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import { setLocalStorageLastConsultedMusiqueIdAction } from "../../serversActions/setLocalStorageLastConsultedMusiqueIdAction";
@@ -43,7 +42,6 @@ export default function PageDetailMusiqueId() {
   if (loading) {
     return (
       <>
-        <Header />
         <div>Chargement des détails de la musique...</div>
       </>
     );
@@ -52,7 +50,6 @@ export default function PageDetailMusiqueId() {
   if (error) {
     return (
       <>
-        <Header />
         <div>Erreur: {error}</div>
       </>
     );
@@ -61,10 +58,22 @@ export default function PageDetailMusiqueId() {
   if (musiqueDetail) {
     const isAbsoluteURL = musiqueDetail.imageUrl.startsWith('http://') || musiqueDetail.imageUrl.startsWith('https://');
     const imageSource = isAbsoluteURL ? musiqueDetail.imageUrl : `../${musiqueDetail.imageUrl}`;
-
+  
+    const handleAddToCart = () => {
+      let cart = sessionStorage.getItem('cart');
+      let cartArray = cart ? JSON.parse(cart) : [];
+      if (!cartArray.includes(musiqueDetail.id.toString())) {
+        cartArray.push(musiqueDetail.id.toString());
+        sessionStorage.setItem('cart', JSON.stringify(cartArray));
+        window.dispatchEvent(new Event('cartUpdated')); // Dispatch an event to update the cart count in the header
+        alert(`L'article "${musiqueDetail.titre}" a été ajouté au panier !`);
+      } else {
+        alert(`L'article "${musiqueDetail.titre}" est déjà dans votre panier.`);
+      }
+    };
+  
     return (
       <>
-        <Header />
         <div className="cover-container">
           <img className="cover-img" src={imageSource} alt={musiqueDetail.titre} />
         </div>
@@ -77,15 +86,10 @@ export default function PageDetailMusiqueId() {
         <p className="prix">Prix: {musiqueDetail.prix} $</p>
         <p className="disponible">Disponible: {musiqueDetail.disponible}</p>
         <p className="vitesse">Vitesse: {musiqueDetail.tours33 ? '33 tours' : ''} {musiqueDetail.tours45 ? (musiqueDetail.tours33 ? ' / 45 tours' : '45 tours') : ''}</p>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossOrigin="anonymous"></script>
+        <button onClick={handleAddToCart} className="btn btn-success mt-3 me-2">
+          🛒 Ajouter au panier
+        </button>
       </>
     );
-  } else {
-    return (
-      <>
-        <Header />
-        <div>Impossible de charger les détails de la musique.</div>
-      </>
-    )
   }
 }

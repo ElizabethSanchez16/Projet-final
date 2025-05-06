@@ -14,7 +14,7 @@ export default function ConnexionForm() {
         setError('');
 
         try {
-            const response = await fetch('/api/admin/login', { // Créez cette route API dans Next.js
+            const response = await fetch('/api/admin/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -25,8 +25,8 @@ export default function ConnexionForm() {
             const data = await response.json();
 
             if (response.ok) {
-                // Connexion réussie, stockez un token ou un indicateur de connexion
-                localStorage.setItem('isAdminLoggedIn', 'true'); // Exemple
+                localStorage.setItem('isAdminLoggedIn', 'true');
+                window.dispatchEvent(new Event('adminLoggedIn'));
                 router.push('/administration/ajoutmusique');
             } else {
                 setError(data.message || 'Identifiants invalides');

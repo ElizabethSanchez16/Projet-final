@@ -1,10 +1,10 @@
-//administration\ajoutmusique\page.js
-import Header from "../../components/Header";
+//app\boutique\panier\page.js
+import PanierForm from "../../components/PanierForm";
 
 export default async function PagePanier() {
     return (
         <>
-            <Header />
+            <PanierForm />
         </>
     );
 }

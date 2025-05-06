@@ -38,6 +38,7 @@ Journal de bord de Kimberly
 
 20250505
 	{
+		15:00
 		Récupération des logos pour le site
 		Modification préliminaires à blog list, blogcard, et blogdétail
 		Installer Logo
@@ -57,4 +58,8 @@ Journal de bord de Kimberly
 		Ajout profil.json pour la sécurité
 		redirection et page de connection
 		Ajout bouton à Header
+		panier
+		test panier
+		header flottant
+		23:41
 	}

@@ -21,7 +21,7 @@ export async function ajoutMusiqueAction(prevState, formData) {
         const imageUrl = formData.get('imageUrl');
         const extraitUrl = formData.get('extraitUrl');
         const disponible = formData.get('disponible');
-        const deleted = formData.get('deleted') === 'true'; // Convertir en booléen
+        const deleted = formData.get('deleted') === 'true';
 
         console.log("Titre:", titre);
         console.log("Album:", album);
@@ -44,7 +44,7 @@ export async function ajoutMusiqueAction(prevState, formData) {
             titre,
             album,
             artiste,
-            genre: [genre], // Assurez-vous que le backend gère un tableau de genres
+            genre: [genre],
             annee: parseInt(annee),
             duration,
             imageUrl,
