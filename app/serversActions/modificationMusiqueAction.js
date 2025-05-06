@@ -51,8 +51,8 @@ export async function modificationMusiqueAction(prevState, formData) {
         });
 
         if (response.ok) {
-            const updatedData = await response.json(); // Récupérer les données mises à jour depuis la réponse
-            return { success: true, updatedData }; // Retourner les données mises à jour
+            const updatedData = await response.json();
+            return { success: true, updatedData };
         } else {
             console.error("Erreur lors de la modification de la musique (HTTP):", response.status);
             const errorData = await response.json();

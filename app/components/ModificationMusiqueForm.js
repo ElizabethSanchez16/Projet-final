@@ -26,7 +26,7 @@ export default function ModificationMusiqueForm() {
         if (confirmed) {
             const result = await deleteMusiqueAction(idToDelete);
             if (result?.success) {
-                window.location.reload(); // Ajout ici
+                window.location.reload();
             }
             return result;
         }
@@ -35,34 +35,30 @@ export default function ModificationMusiqueForm() {
     const [modificationSummary, setModificationSummary] = useState(null);
     const [initialMusiqueData, setInitialMusiqueData] = useState(null);
 
-// Ajoute ce bloc AVANT le premier useEffect
-const fetchMusiques = useCallback(async () => {
-    try {
-        const response = await fetch("http://localhost:3001/musiques");
-        if (response.ok) {
-            const data = await response.json();
-            setMusiques(data);
-        } else {
-            console.error("Erreur lors de la récupération des musiques:", response.status);
+    const fetchMusiques = useCallback(async () => {
+        try {
+            const response = await fetch("http://localhost:3001/musiques");
+            if (response.ok) {
+                const data = await response.json();
+                setMusiques(data);
+            } else {
+                console.error("Erreur lors de la récupération des musiques:", response.status);
+            }
+        } catch (error) {
+            console.error("Erreur réseau:", error);
         }
-    } catch (error) {
-        console.error("Erreur réseau:", error);
-    }
-}, []);
+    }, []);
 
-// Modifie le premier useEffect pour utiliser la fonction fetchMusiques
-useEffect(() => {
-    fetchMusiques();
-}, [fetchMusiques]);
-
-useEffect(() => {
-    if (modificationState?.success) {
+    useEffect(() => {
         fetchMusiques();
-        window.location.reload(); // Ajout ici
-        // Optionnel: Réinitialiser l'état de succès
-        // setModificationState(null);
-    }
-}, [modificationState?.success, fetchMusiques]);
+    }, [fetchMusiques]);
+
+    useEffect(() => {
+        if (modificationState?.success) {
+            fetchMusiques();
+            window.location.reload();
+        }
+    }, [modificationState?.success, fetchMusiques]);
 
     const handleMusiqueSelection = useCallback((event) => {
         const musiqueId = event.target.value;
@@ -83,7 +79,7 @@ useEffect(() => {
             setExtraitUrlDraft(selectedMusique.extraitUrl || '');
             setDisponibleDraft(selectedMusique.disponible ? selectedMusique.disponible.toString() : '');
             setDeletedDraft(selectedMusique.deleted ? 'true' : 'false');
-            setModificationSummary(null); // Réinitialiser le sommaire lors d'une nouvelle sélection
+            setModificationSummary(null);
         } else {
             resetForm();
             setInitialMusiqueData(null);
@@ -112,7 +108,6 @@ useEffect(() => {
     const handleInputChange = useCallback((event) => {
         const { name, value } = event.target;
 
-        // Mise à jour immédiate de l'état "draft"
         switch (name) {
             case 'titre': setTitreDraft(value); break;
             case 'album': setAlbumDraft(value); break;
@@ -129,7 +124,6 @@ useEffect(() => {
             default: break;
         }
 
-        // Mise à jour du sommaire des modifications en temps réel
         if (initialMusiqueData) {
             setModificationSummary(prevSummary => {
                 const changes = { ...prevSummary } || {};
@@ -181,7 +175,7 @@ useEffect(() => {
     }, [initialMusiqueData]);
 
 
-        const handleSubmit = (formData) => {
+    const handleSubmit = (formData) => {
         formData.set('titre', titreDraft);
         formData.set('album', albumDraft);
         formData.set('artiste', artisteDraft);
