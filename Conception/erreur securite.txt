@@ -1,0 +1,83 @@
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ git add .
+
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ git commit -m "stripe ajouté elements du panier a lui donner"
+[main 68ca9b3] stripe ajouté elements du panier a lui donner
+ Committer: Kimberly Brunette <0834238@etu.cegepjonquiere.ca>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ git push
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (23/23), 4.11 KiB | 1.37 MiB/s, done.
+Total 23 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), completed with 7 local objects.
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote:
+remote: - GITHUB PUSH PROTECTION
+remote:   —————————————————————————————————————————
+remote:     Resolve the following violations before pushing again
+remote:
+remote:     - Push cannot contain secrets
+remote:
+remote:
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+remote:
+remote:
+remote:       —— Stripe Test API Secret Key ————————————————————————
+remote:        locations:
+remote:          - commit: c935da1863a60a9199207dd94e7a788b5618be80
+remote:            path: .env:3
+remote:          - commit: 68ca9b3c794cd78a05965f38e456104ede3afde1
+remote:            path: .env:3
+remote:
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/ElizabethSanchez16/Projet-final/security/secret-scanning/unblock-secret/2x2kmIKG4MO5VcDL5kKW99IfkZ2
+remote:
+remote:
+remote:
+To https://github.com/ElizabethSanchez16/Projet-final.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/ElizabethSanchez16/Projet-final.git'
+
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ ^C
+
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ git add .
+
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ git commit -m "stripe ajouté elements du panier a lui donner"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+0834238@VM-INFO-FIX-59 MINGW64 /c/Users/0834238/Desktop/CM/Projet-final (main)
+$ git push
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (23/23), 4.11 KiB | 1.37 MiB/s, done.
+Total 23 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (9/9), completed with 7 local objects.
+To https://github.com/ElizabethSanchez16/Projet-final.git
+   fcfd894..68ca9b3  main -> main
