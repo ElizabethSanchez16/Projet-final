@@ -18,7 +18,8 @@
       "tours45": false,
       "disponible": 4,
       "deleted": false,
-      "prix": 35.99
+      "prix": 35.99,
+      "stripeURL": "https://buy.stripe.com/test_9B600c6sV9kbfk17rz6c000"
     },
     {
       "id": "2",
@@ -39,7 +40,8 @@
       "tours45": false,
       "disponible": 6,
       "deleted": false,
-      "prix": 28.99
+      "prix": 28.99,
+      "stripeURL": "https://buy.stripe.com/test_28EeV604x9kb9ZH8vD6c001"
     },
     {
       "id": "3",
@@ -58,7 +60,8 @@
       "tours45": false,
       "disponible": 7,
       "deleted": false,
-      "prix": 40.99
+      "prix": 40.99,
+      "stripeURL": "https://buy.stripe.com/test_9B67sE2cF53V3Bj3bj6c002"
     },
     {
       "id": "4",
@@ -78,7 +81,8 @@
       "tours45": false,
       "disponible": 9,
       "deleted": false,
-      "prix": 32.99
+      "prix": 32.99,
+      "stripeURL": "https://buy.stripe.com/test_14AeV64kNfIz6Nv9zH6c003"
     },
     {
       "id": "5",
@@ -97,7 +101,8 @@
       "tours45": false,
       "disponible": 5,
       "deleted": false,
-      "prix": 30.99
+      "prix": 30.99,
+      "stripeURL": "https://buy.stripe.com/test_9B600ccRj2VNefX3bj6c004"
     },
     {
       "id": "6",
@@ -116,7 +121,8 @@
       "tours45": true,
       "disponible": 15,
       "deleted": false,
-      "prix": 15.99
+      "prix": 15.99,
+      "stripeURL": "https://buy.stripe.com/test_aFacMYeZrbsj4FndPX6c005"
     },
     {
       "id": "7",
@@ -134,7 +140,8 @@
       "tours45": true,
       "disponible": 11,
       "deleted": false,
-      "prix": 12.99
+      "prix": 12.99,
+      "stripeURL": "https://buy.stripe.com/test_eVq00c5oR8g7c7PcLT6c006"
     },
     {
       "id": "8",
@@ -152,7 +159,8 @@
       "tours45": true,
       "disponible": 0,
       "deleted": false,
-      "prix": 18.99
+      "prix": 18.99,
+      "stripeURL": "https://buy.stripe.com/test_4gM3co3gJfIzc7P5jr6c007"
     },
     {
       "id": "9",
@@ -171,7 +179,8 @@
       "tours45": true,
       "disponible": 8,
       "deleted": false,
-      "prix": 14.99
+      "prix": 14.99,
+      "stripeURL": "https://buy.stripe.com/test_5kQ00c18B3ZRefX8vD6c008"
     },
     {
       "id": "10",
@@ -191,7 +200,8 @@
       "tours45": true,
       "disponible": 12,
       "deleted": false,
-      "prix": 16.99
+      "prix": 16.99,
+      "stripeURL": "https://buy.stripe.com/test_eVq4gs04x0NFfk19zH6c009"
     },
     {
       "id": "11",
@@ -210,9 +220,11 @@
       "tours45": false,
       "disponible": 0,
       "deleted": true,
-      "prix": 38.99
+      "prix": 38.99,
+      "stripeURL": "https://buy.stripe.com/test_00wdR25oR3ZR3BjcLT6c00a"
     },
     {
+      "id": "3437",
       "titre": "Discovery",
       "album": "Discovery",
       "artiste": "Daft Punk",
@@ -228,7 +240,7 @@
       "disponible": 10,
       "deleted": false,
       "prix": 39.99,
-      "id": "3437"
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "25ab",
@@ -246,7 +258,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "b130",
@@ -264,7 +277,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "aa4c",
@@ -282,7 +296,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "d9d8",
@@ -300,7 +315,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "82ac",
@@ -318,7 +334,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "a15d",
@@ -336,7 +353,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "a345",
@@ -354,7 +372,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "c3f3",
@@ -372,7 +391,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39.99
+      "prix": 39.99,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "5aba",
@@ -390,7 +410,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "b486",
@@ -408,7 +429,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "662d",
@@ -426,7 +448,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "0e07",
@@ -444,7 +467,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "3c31",
@@ -462,7 +486,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "81c9",
@@ -480,7 +505,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "05d7",
@@ -498,7 +524,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "dab8",
@@ -516,7 +543,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "98ed",
@@ -534,7 +562,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "2027",
@@ -552,7 +581,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "f163",
@@ -570,7 +600,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "7278",
@@ -588,7 +619,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "61f8",
@@ -606,7 +638,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "0819",
@@ -624,7 +657,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "a5bd",
@@ -642,7 +676,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     },
     {
       "id": "f922",
@@ -660,7 +695,8 @@
       "tours45": false,
       "disponible": 10,
       "deleted": false,
-      "prix": 39
+      "prix": 39,
+      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     }
   ]
 }

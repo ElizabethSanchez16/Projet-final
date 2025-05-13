@@ -70,5 +70,10 @@ Journal de bord de Kimberly
 20250506
 	{
 		Retrait Lecteurs de BD
-		
+		test stripe dans projet a part
+	}
+	
+20250513
+	{
+		Cration des items au catalogue de produits et ajout link paiement stripe
 	}
