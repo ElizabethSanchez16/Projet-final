@@ -86,6 +86,12 @@ export default function Header() {
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
+              <a className="nav-link" href="../../boutique/stripe">Stripe ({cartCount})</a>
+            </li>
+          </ul>
+
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
               <a className="nav-link" href="https://www.canva.com/design/DAGmBePhDAU/Ly_Kzs-t1MOfIjy3og6CVw/edit?utm_content=DAGmBePhDAU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Présentation Canva</a>
             </li>
           </ul>

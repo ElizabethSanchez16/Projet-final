@@ -75,5 +75,7 @@ Journal de bord de Kimberly
 	
 20250513
 	{
-		Cration des items au catalogue de produits et ajout link paiement stripe
+		Creation des items au catalogue de produits et ajout link paiement stripe
+		installation stripe
+		
 	}
