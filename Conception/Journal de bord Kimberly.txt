@@ -72,10 +72,16 @@ Journal de bord de Kimberly
 		Retrait Lecteurs de BD
 		test stripe dans projet a part
 	}
-	
+
 20250513
 	{
 		Creation des items au catalogue de produits et ajout link paiement stripe
 		installation stripe
-		
+	}
+
+20250515
+	{
+		Intégration des liens de paiement stripe a blog card
+		detail
+		panier (renommé mse de coté
 	}
