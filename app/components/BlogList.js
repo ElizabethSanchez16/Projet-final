@@ -22,6 +22,7 @@ export default function BlogList({ musiques }) {
                         disponible={musique.disponible}
                         deleted={musique.deleted}
                         prix={musique.prix}
+                        stripeURL={musique.stripeURL}
                         id={musique.id}
                         className="card col-lg-4 col-12"
                     />

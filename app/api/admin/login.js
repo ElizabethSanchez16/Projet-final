@@ -5,13 +5,13 @@ import fs from 'fs/promises';
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { username, password } = req.body;
-    const filePath = path.join(process.cwd(), 'app', 'basededonnees', 'profils.json');
+    const filePath = path.join(process.cwd(), 'app', 'basededonnees', 'users.json');
 
     try {
       const jsonData = await fs.readFile(filePath, 'utf-8');
       const profiles = JSON.parse(jsonData);
 
-      if (profiles.admin && profiles.admin.username === username && profiles.admin.password === password) {
+      if (profiles.users && profiles.users.username === username && profiles.users.password === password) {
         res.status(200).json({ message: 'Connexion réussie' });
       } else {
         res.status(401).json({ message: 'Identifiants invalides' });

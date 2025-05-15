@@ -80,13 +80,7 @@ export default function Header() {
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="../../boutique/panier">Panier ({cartCount})</a>
-            </li>
-          </ul>
-
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" href="../../boutique/stripe">Stripe ({cartCount})</a>
+              <a className="nav-link" href="../../boutique/panier">Mise de coté ({cartCount})</a>
             </li>
           </ul>
 

@@ -61,15 +61,15 @@ export default function PanierForm() {
     useEffect(() => {
         let nouveauSousTotal = 0;
         panierProduits.forEach(produit => {
-          const quantite = quantites[produit.id] || 0;
-          const inventaire = inventaires[produit.id] || 0;
-          if (inventaire > 0 && quantite > 0) {
-            nouveauSousTotal += produit.prix * quantite;
-          }
+            const quantite = quantites[produit.id] || 0;
+            const inventaire = inventaires[produit.id] || 0;
+            if (inventaire > 0 && quantite > 0) {
+                nouveauSousTotal += produit.prix * quantite;
+            }
         });
         setSousTotal(nouveauSousTotal);
-      }, [panierProduits, quantites, inventaires]);
-      
+    }, [panierProduits, quantites, inventaires]);
+
     const handleIncrement = (produitId) => {
         const inventaireDisponible = inventaires[produitId];
         const quantiteActuelle = quantites[produitId] || 0;
@@ -138,7 +138,7 @@ export default function PanierForm() {
 
     return (
         <div className="container mt-5">
-            <h2>Votre Panier</h2>
+            <h2>Mise de côté</h2>
             {panierProduits.length > 0 ? (
                 <ul className="list-group">
                     {panierProduits.map(produit => {
@@ -152,7 +152,7 @@ export default function PanierForm() {
                         return (
                             <li key={produit.id} className="list-group-item d-flex justify-content-between align-items-center">
                                 <div className="d-flex align-items-center" style={{ flexGrow: 1 }}>
-                                <img src={imageSource} alt={produit.titre} className="panier-image" />
+                                    <img src={imageSource} alt={produit.titre} className="panier-image" />
                                     <div>
                                         <h5>{produit.titre}</h5>
                                         <p className="mb-0">Artiste: {produit.artiste}</p>
@@ -175,6 +175,10 @@ export default function PanierForm() {
                                     <button className="btn btn-sm btn-outline-danger ms-3" onClick={() => handleRemoveFromCart(produit.id)}>
                                         <FontAwesomeIcon icon={faTrashCan} />
                                     </button>
+                                    <a href={produit.stripeURL} className="btn btn-success me-2">
+                                        $
+                                    </a>
+
                                 </div>
                             </li>);
                     })}
@@ -199,9 +203,12 @@ export default function PanierForm() {
             )}
             {panierProduits.length > 0 && (
                 <div className="mt-3 text-end">
-                    <button className="btn btn-primary" onClick={handlePayer}>
-                        Payer {grandTotal} $ par Stripe
-                    </button>
+                     <p className="" >
+                        Payer ($) les articles individuellement, 
+                    </p>
+                   <p className="" >
+                        pour un montant de {grandTotal} $ par Stripe
+                    </p>
                 </div>
             )}
         </div>

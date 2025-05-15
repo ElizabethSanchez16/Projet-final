@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { useTransition } from 'react';
 import { getLocalStorageLastConsultedMusiqueIdAction } from "../serversActions/getLocalStorageLastconsultedMusiqueIdAction";
 
-export default function BlogCard({ key, titre, album, artiste, genre, annee, duration, imageUrl, extraitUrl, tours33, tours45, disponible, prix, id, className }) {
+export default function BlogCard({ key, titre, album, artiste, genre, annee, duration, imageUrl, extraitUrl, tours33, tours45, disponible, prix, id, className, stripeURL }) {
     const [isLastConsulted, setIsLastConsulted] = useState(false);
 
     useEffect(() => {
@@ -46,8 +46,11 @@ export default function BlogCard({ key, titre, album, artiste, genre, annee, dur
                     <p className="card-text">Vitesse: {tours33 ? '33 tours' : ''} {tours45 ? (tours33 ? ' / 45 tours' : '45 tours') : ''}</p>
                     <Link href={`/detail/${id}`} className="btn btn-primary me-2">📖 Détails</Link>
                     <button onClick={handleAddToCart} className="btn btn-success me-2">
-                        🛒 Ajouter au panier
+                        🛒 Mettre de coté pour plus tard
                     </button>
+                    <a href={stripeURL} className="btn btn-success me-2">
+                        🛒 Payer cet article avec Stripe
+                    </a>
                     {isLastConsulted && <span className="text-success">Consulté récemment</span>}
                 </div>
             </div>
