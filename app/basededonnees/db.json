@@ -678,25 +678,6 @@
       "deleted": false,
       "prix": 39,
       "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
-    },
-    {
-      "id": "f922",
-      "titre": "Discovery",
-      "album": "Discovery",
-      "artiste": "Daft Punk",
-      "genre": [
-        "Electronic"
-      ],
-      "annee": 2001,
-      "duration": "1:01:19",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Daft_Punk_-_Discovery.png/250px-Daft_Punk_-_Discovery.png",
-      "extraitUrl": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
-      "tours33": true,
-      "tours45": false,
-      "disponible": 10,
-      "deleted": false,
-      "prix": 39,
-      "stripeURL": "https://buy.stripe.com/test_00w5kw7wZ8g7c7P8vD6c00b"
     }
   ]
 }

@@ -58,7 +58,7 @@ export default function Header() {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg bg-body-tertiary bg-dark fixedHeader`} data-bs-theme="dark">
+    <nav className={`navbar navbar-expand-lg bg-body-tertiary bg-dark fixedHeader`} data-bs-theme="none">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">Vinyl Haven</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,13 +98,13 @@ export default function Header() {
 
           <form className="d-flex me-2" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
+            <button className="checkout" type="submit">Search</button>
           </form>
 
           {isAdminLoggedIn ? (
-            <button className="btn btn-outline-danger" onClick={handleLogout}>Déconnexion</button>
+            <button className="btn-outline-danger" onClick={handleLogout}>Déconnexion</button>
           ) : (
-            <button className="btn btn-outline-success" onClick={handleLogin}>Connexion</button>
+            <button className="btn-primary" onClick={handleLogin}>Connexion</button>
           )}
         </div>
       </div>
