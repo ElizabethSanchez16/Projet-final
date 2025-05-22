@@ -81,9 +81,9 @@ export default function ajoutMusiqueForm({ ajoutMusiqueAction }) {
                         </select>
                     </div>
 
-                    <button type="submit" className="btn btn-primary">Ajouter le vinyl</button>
-                    {state?.error && <p className="text-danger mt-2">{state.error}</p>}
-                    {state?.success && <p className="text-success mt-2">Vinyl ajouté avec succès!</p>}
+                    <button type="submit" className="btn-primary">Ajouter le vinyl</button>
+                    {state?.error && <p className="text-danger">{state.error}</p>}
+                    {state?.success && <p className="text-success">Vinyl ajouté avec succès!</p>}
 
                 </form>
             </div>

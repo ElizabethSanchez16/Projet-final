@@ -99,10 +99,10 @@ export default function PageDetailMusiqueId() {
         <p className="prix">Prix: {musiqueDetail.prix} $</p>
         <p className="disponible">Disponible: {musiqueDetail.disponible}</p>
         <p className="vitesse">Vitesse: {musiqueDetail.tours33 ? '33 tours' : ''} {musiqueDetail.tours45 ? (musiqueDetail.tours33 ? ' / 45 tours' : '45 tours') : ''}</p>
-        <button onClick={handleAddToCart} className="btn btn-success mt-3 me-2">
-          🛒 Mettre de coté pour plus tard
+        <button onClick={handleAddToCart} className="btn-primary">
+          🛒 Mettre de coté pour plus tard <br/>
         </button>
-        <a href={musiqueDetail.stripeURL} className="btn btn-success me-2">
+        <a href={musiqueDetail.stripeURL} className="btn-primary">
           🛒 Payer cet article avec Stripe
         </a>
 
