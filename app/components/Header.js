@@ -9,6 +9,11 @@ export default function Header() {
   const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
   const [cartCount, setCartCount] = useState(0);
 
+  const handleSearch = (query) => {
+    console.log("Búsqueda:", query);
+    // Aquí puedes filtrar datos o hacer una petición API
+  };
+
   useEffect(() => {
     const getLoggedInStatus = () => {
       const loggedIn = localStorage.getItem('isAdminLoggedIn');
@@ -96,10 +101,7 @@ export default function Header() {
             </li>
           </ul>
 
-          <form className="d-flex me-2" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="checkout" type="submit">Search</button>
-          </form>
+          
 
           {isAdminLoggedIn ? (
             <button className="btn-outline-danger" onClick={handleLogout}>Déconnexion</button>
@@ -107,6 +109,8 @@ export default function Header() {
             <button className="btn-primary" onClick={handleLogin}>Connexion</button>
           )}
         </div>
+
+        
       </div>
     </nav>
   );
