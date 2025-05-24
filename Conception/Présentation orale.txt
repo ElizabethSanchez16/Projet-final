@@ -1,0 +1,41 @@
+Vous devez présenter votre projet dans une présentation orale de 15 minutes
+Prévoyez environ une diapositive par minute de présentation
+
+• Gardez le contenu textuel minimal. N’incluez que les points principaux et utilisez-les
+comme aide-mémoire pour développer lors de la présentation
+• Assurez-vous que le contenu (texte, diagrammes, schémas, graphiques, etc.) soit
+facilement lisible. N’hésitez pas à séparer les diagrammes sur plusieurs diapositives.
+• Déterminez à l’avance qui va présenter quelle partie
+• Présentez ce que vous avez développé dans les deux cours de façon équitable.
+
+
+Fait
+
+01)Titre
+02)Présentation de l'équipe
+03)Plan de présentation
+04)But de projet
+05)Consignes
+06)Présentation du projet (Introduction)
+07)Design
+
+
+A compléter
+
+08)Un diagramme d’entité-relation
+09)Les principales fonctionnalités de l’application que vous avez implémentées.
+10)Une démonstration en direct de celles-ci.
+11)Les principales difficultés que vous avez rencontrées (individuelles et d’équipe).
+12)Vos bons coups principaux (individuels et d’équipe).
+13)Vos recommandations pour la suite du projet, si on avait plus de temps.
+14)une conclusion.
+
+
+
+
+Démonstration
+
+• Pratiquez-vous à faire la démonstration au moins deux fois. Enregistrez l’écran la deuxième
+fois afin d’avoir un plan B en cas d’échec de la démonstration en direct.
+
+
