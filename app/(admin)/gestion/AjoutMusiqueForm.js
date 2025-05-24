@@ -81,6 +81,11 @@ export default function ajoutMusiqueForm({ ajoutMusiqueAction }) {
                         </select>
                     </div>
 
+                    <div className="mb-3">
+                        <label htmlFor="stripeUrl" className="form-label">URL du catalogue Stripe</label>
+                        <input type="url" className="form-control" id="stripeUrl" name="stripeUrl" />
+                    </div>
+
                     <button type="submit" className="btn-primary">Ajouter le vinyl</button>
                     {state?.error && <p className="text-danger">{state.error}</p>}
                     {state?.success && <p className="text-success">Vinyl ajouté avec succès!</p>}

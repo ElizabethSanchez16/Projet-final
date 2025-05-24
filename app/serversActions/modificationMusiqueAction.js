@@ -20,9 +20,10 @@ export async function modificationMusiqueAction(prevState, formData) {
         const imageUrl = formData.get('imageUrl');
         const extraitUrl = formData.get('extraitUrl');
         const disponible = formData.get('disponible');
+        const stripeUrl = formData.get('stripeUrl');
         const deleted = formData.get('deleted') === 'true';
 
-        if (!titre || !album || !artiste || !genre || !annee || !format || !prix || !disponible) {
+        if (!titre || !album || !artiste || !genre || !annee || !format || !prix || !disponible || !stripeUrl) {
             return { error: "Erreur: Tous les champs marqués d'un astérisque sont obligatoires." };
         }
 
@@ -40,6 +41,7 @@ export async function modificationMusiqueAction(prevState, formData) {
             disponible: parseInt(disponible),
             deleted,
             prix: parseFloat(prix),
+            stripeUrl
         };
 
         const response = await fetch(`http://localhost:3001/musiques/${id}`, {

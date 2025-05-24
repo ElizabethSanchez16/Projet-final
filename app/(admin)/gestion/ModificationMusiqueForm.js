@@ -19,6 +19,8 @@ export default function ModificationMusiqueForm() {
     const [extraitUrlDraft, setExtraitUrlDraft] = useState('');
     const [disponibleDraft, setDisponibleDraft] = useState('');
     const [deletedDraft, setDeletedDraft] = useState('false');
+    const [stripeUrlDraft, setStripeUrlDraft] = useState('');
+
     const [modificationState, modificationFormAction] = useFormState(modificationMusiqueAction, null);
     const [suppressionState, suppressionFormAction] = useFormState(async (prevState, formData) => {
         const idToDelete = formData.get('id');
@@ -80,6 +82,7 @@ export default function ModificationMusiqueForm() {
             setDisponibleDraft(selectedMusique.disponible ? selectedMusique.disponible.toString() : '');
             setDeletedDraft(selectedMusique.deleted ? 'true' : 'false');
             setModificationSummary(null);
+            setStripeUrlDraft(selectedMusique.stripeUrl || '');
         } else {
             resetForm();
             setInitialMusiqueData(null);
@@ -101,6 +104,7 @@ export default function ModificationMusiqueForm() {
         setExtraitUrlDraft('');
         setDisponibleDraft('');
         setDeletedDraft('false');
+        setStripeUrlDraft('');
         setModificationSummary(null);
         setInitialMusiqueData(null);
     }, []);
@@ -121,6 +125,8 @@ export default function ModificationMusiqueForm() {
             case 'extraitUrl': setExtraitUrlDraft(value); break;
             case 'disponible': setDisponibleDraft(value); break;
             case 'deleted': setDeletedDraft(value); break;
+            case 'stripeUrl': setStripeUrlDraft(value); break;
+
             default: break;
         }
 
@@ -168,6 +174,10 @@ export default function ModificationMusiqueForm() {
 
                 if (value !== initialMusiqueData.extraitUrl && name === 'extraitUrl') changes.extraitUrl = { ancienne: initialMusiqueData.extraitUrl || 'N/A', nouvelle: value || 'N/A' };
                 else if (name === 'extraitUrl' && changes.extraitUrl) delete changes.extraitUrl;
+ 
+                if (value !== initialMusiqueData.stripeUrl && name === 'stripeUrl') changes.stripeUrl = { ancienne: initialMusiqueData.stripeUrl || 'N/A', nouvelle: value || 'N/A' };
+                else if (name === 'stripeUrl' && changes.stripeUrl) delete changes.stripeUrl;
+
 
                 return Object.keys(changes).length > 0 ? changes : null;
             });
@@ -188,6 +198,8 @@ export default function ModificationMusiqueForm() {
         formData.set('extraitUrl', extraitUrlDraft);
         formData.set('disponible', disponibleDraft);
         formData.set('deleted', deletedDraft);
+        formData.set('stripeUrl', stripeUrlDraft);
+
         modificationFormAction(formData);
     };
 
@@ -279,6 +291,12 @@ export default function ModificationMusiqueForm() {
                             </select>
                         </div>
 
+                        <div className="mb-3">
+                            <label htmlFor="stripeUrl" className="form-label">URL du catalogue Stripe</label>
+                            <input type="url" className="form-control" id="stripeUrl" name="stripeUrl" value={stripeUrlDraft} onChange={handleInputChange} />
+                        </div>
+
+
                         {modificationSummary && (
                             <div className="mt-2 alert alert-warning">
                                 <h5>Modifications :</h5>
@@ -297,6 +315,8 @@ export default function ModificationMusiqueForm() {
                                             {key === 'deleted' && 'Supprimé (soft) : '}
                                             {key === 'imageUrl' && 'Image URL : '}
                                             {key === 'extraitUrl' && 'Extrait URL : '}
+                                            {key === 'stripeUrl' && 'Stripe URL : '}
+                                            
                                             {values.ancienne} <span className="fw-bold">→</span> {values.nouvelle}
                                         </li>
                                     ))}
