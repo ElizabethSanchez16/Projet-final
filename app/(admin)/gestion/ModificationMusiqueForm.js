@@ -305,10 +305,9 @@ export default function ModificationMusiqueForm() {
                         )}
 
                         <button type="submit" className="btn-primary">Modifier le vinyl</button>
+                        {modificationState?.error && <p className="text-danger mt-2">{modificationState.error}</p>}
+                        {modificationState?.success && <p className="text-success mt-2">Vinyl modifié avec succès!</p>}
                     </form>
-
-                    {modificationState?.error && <p className="text-danger mt-2">{modificationState.error}</p>}
-                    {modificationState?.success && <p className="text-success mt-2">Vinyl modifié avec succès!</p>}
 
                     <form action={suppressionFormAction} className="mt-3">
                         <input type="hidden" name="id" value={selectedMusiqueId} />

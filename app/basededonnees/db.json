@@ -1,4 +1,28 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "Admin123!",
+      "admin": true,
+      "forcePasswordReset": false
+    },
+    {
+      "id": 2,
+      "username": "Kimberly",
+      "password": "0000",
+      "admin": true,
+      "forcePasswordReset": false
+    },
+    {
+      "id": 3,
+      "username": "user",
+      "password": "0000",
+      "userpicture": "",
+      "admin": false,
+      "capturedCreatures": []
+    }
+  ],
   "musiques": [
     {
       "id": "1",
