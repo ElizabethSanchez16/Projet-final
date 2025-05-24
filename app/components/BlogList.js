@@ -1,32 +1,49 @@
-//app\components\BlogList.js
-import BlogCard from "../components/BlogCard";
+// app/components/BlogList.js
+import { useState } from 'react';
+import PropTypes from 'prop-types';
+import BlogCard from "./BlogCard";
 
-export default function BlogList({ musiques }) {
-    return (
-        <div className="row">
-            {musiques
-                .filter(musique => !musique.deleted)
-                .map((musique, index) => (
-                    <BlogCard
-                        key={index}
-                        titre={musique.titre}
-                        album={musique.album}
-                        artiste={musique.artiste}
-                        genre={musique.genre}
-                        annee={musique.annee}
-                        duration={musique.duration}
-                        imageUrl={musique.imageUrl}
-                        extraitUrl={musique.extraitUrl}
-                        tours33={musique.tours33}
-                        tours45={musique.tours45}
-                        disponible={musique.disponible}
-                        deleted={musique.deleted}
-                        prix={musique.prix}
-                        stripeURL={musique.stripeURL}
-                        id={musique.id}
-                        className="card col-lg-4 col-12"
-                    />
-                ))}
+const safeString = (str) => String(str || '').toLowerCase();
+
+export default function BlogList({ musiques = [] }) {
+  const [searchTerm, setSearchTerm] = useState('');
+  const normalizedSearch = safeString(searchTerm);
+
+//   funcion que hace el filtro en si de las musicas que llegan como props
+  const filteredMusiques = musiques
+    .filter(musique => !musique.deleted)
+    .filter(musique => {
+      if (!normalizedSearch) return true;
+      return (
+        safeString(musique.titre).includes(normalizedSearch) ||
+        safeString(musique.artiste).includes(normalizedSearch) ||
+        safeString(musique.album).includes(normalizedSearch)
+      );
+    });
+
+  return (
+    <div className="container">
+        {/* empieza la barra de busqueda */}
+      <div className="row mb-4">
+        <div className="col-12">
+          <input
+            type="text"
+            placeholder="Rechercher par titre, artiste ou album..."
+            className="form-control"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
         </div>
-    );
+      </div>
+      <div className="row">
+        {filteredMusiques.map((musique) => (
+          <BlogCard
+            key={musique.id}
+            {...musique}
+            className="card col-lg-4 col-md-6 col-12 mb-4"
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
