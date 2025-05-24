@@ -83,8 +83,6 @@ export default function ModificationMusiqueForm() {
             setDeletedDraft(selectedMusique.deleted ? 'true' : 'false');
             setModificationSummary(null);
             setStripeUrlDraft(selectedMusique.stripeUrl || '');
-                    console.log("Stripe URL pour le vinyle sélectionné:", selectedMusique.stripeUrl); // Ajoute ceci
-
         } else {
             resetForm();
             setInitialMusiqueData(null);
