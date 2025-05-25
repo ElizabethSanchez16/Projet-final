@@ -36,7 +36,7 @@ export async function PATCH(req, { params }) {
 export async function DELETE(req, { params }) {
   try {
     const { id } = params;   // L'id de l'utilisateur à supprimer.
-    const filePath = path.join(process.cwd(), 'app', 'db', 'db.json');
+    const filePath = path.join(process.cwd(), 'app', 'basededonnees', 'db.json');
     const jsonData = await fs.readFile(filePath, 'utf-8');
     const db = JSON.parse(jsonData);
 

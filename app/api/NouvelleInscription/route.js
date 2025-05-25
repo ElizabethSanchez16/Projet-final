@@ -25,9 +25,8 @@ export async function POST(req) {
       id: db.users.length + 1, // Simple auto-incrémentation de l'ID (à améliorer en production)
       username: username,
       password: password, // À REMPLACER PAR UN HACHAGE DE MOT DE PASSE EN PRODUCTION !
-      userpicture: '', // Valeurs par défaut
       admin: false,       // Valeur par défaut
-      capturedCreatures: [] // Ajout d'un champ pour les créatures capturées
+      forcePasswordReset: false, // Valeur par défaut
     };
 
     // Ajoute le nouvel utilisateur à la base de données

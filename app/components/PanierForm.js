@@ -175,9 +175,11 @@ export default function PanierForm() {
                                     <button className="btn btn-sm btn-outline-danger ms-3" onClick={() => handleRemoveFromCart(produit.id)}>
                                         <FontAwesomeIcon icon={faTrashCan} />
                                     </button>
+                                    {!estEnRuptureDeStock && (
                                     <a href={produit.stripeURL} className="btn btn-success me-2">
                                         $
                                     </a>
+                                    )}
 
                                 </div>
                             </li>);

@@ -57,7 +57,7 @@ export default function ChangePasswordForm() {
                 });
                 // Redirect to profile or home page after successful password change
                 setTimeout(() => {
-                    router.push('/profil');
+                    router.push('/');
                 }, 1500);
             } else {
                 setError(data.message || 'Erreur lors du changement de mot de passe.');

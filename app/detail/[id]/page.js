@@ -46,6 +46,7 @@ export default function PageDetailMusiqueId() {
   if (musiqueDetail) {
     const isAbsoluteURL = musiqueDetail.imageUrl.startsWith('http://') || musiqueDetail.imageUrl.startsWith('https://');
     const imageSource = isAbsoluteURL ? musiqueDetail.imageUrl : `../${musiqueDetail.imageUrl}`;
+    const estEnRuptureDeStock = musiqueDetail.disponible === 0;
 
     const handleAddToCart = () => {
       let cart = sessionStorage.getItem('cart');
@@ -72,6 +73,8 @@ export default function PageDetailMusiqueId() {
 
     return (
       <>
+        const estEnRuptureDeStock = inventaires[produit.id] === 0;
+
         <div className="cover-container">
           <img className="cover-img" src={imageSource} alt={musiqueDetail.titre} />
         </div>
@@ -100,12 +103,18 @@ export default function PageDetailMusiqueId() {
         <p className="disponible">Disponible: {musiqueDetail.disponible}</p>
         <p className="vitesse">Vitesse: {musiqueDetail.tours33 ? '33 tours' : ''} {musiqueDetail.tours45 ? (musiqueDetail.tours33 ? ' / 45 tours' : '45 tours') : ''}</p>
         <button onClick={handleAddToCart} className="btn-primary">
-          🛒 Mettre de coté pour plus tard <br/>
+          🛒 Mettre de coté pour plus tard <br />
         </button>
-        <a href={musiqueDetail.stripeURL} className="btn-primary">
-          🛒 Payer cet article avec Stripe
-        </a>
-
+        {estEnRuptureDeStock && (
+            <p className="mb-0"> <span className="text-danger">Rupture de stock - </span> : ''</p>
+          )
+        }
+        {!estEnRuptureDeStock && (
+            <a href={musiqueDetail.stripeURL} className="btn-primary">
+              🛒 Payer cet article avec Stripe
+            </a>
+          )
+        }
       </>
     );
   }

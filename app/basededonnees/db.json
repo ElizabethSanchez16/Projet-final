@@ -18,9 +18,15 @@
       "id": 3,
       "username": "user",
       "password": "0000",
-      "userpicture": "",
       "admin": false,
-      "capturedCreatures": []
+      "forcePasswordReset": false
+    },
+    {
+      "id": 4,
+      "username": "Elizabeth",
+      "password": "salut123",
+      "admin": true,
+      "forcePasswordReset": false
     }
   ],
   "musiques": [
