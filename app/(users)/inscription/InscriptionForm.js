@@ -66,7 +66,7 @@ export default function InscriptionForm() {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">S'inscrire</button> {/* MODIFICATION DU TEXTE DU BOUTON */}
+        <button type="submit" className="btn-primary">S'inscrire</button> {/* MODIFICATION DU TEXTE DU BOUTON */}
         {error && <p className="text-danger mt-2">{error}</p>}
       </form>
     </div>

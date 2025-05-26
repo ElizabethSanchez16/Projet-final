@@ -140,13 +140,13 @@ const handleSubmit = async (event) => {
                             required
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary">Se connecter</button>
+                    <button type="submit" className="btn-primary">Se connecter</button>
                     {error && <p className="text-danger mt-2">{error}</p>}
                 </form>
             )}
 
             <h1>Vous n'avez pas de compte ?</h1>
-            <button type="submit" className="btn btn-primary" onClick={() => router.push('/inscription')}>Inscription</button>
+            <button type="submit" className="btn-primary" onClick={() => router.push('/inscription')}>Inscription</button>
         </div>
     );
 }

@@ -298,6 +298,8 @@ body {
 
 /* Buttons */
 .btn {
+  background-color: #6C63FF;
+  color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
@@ -306,6 +308,7 @@ body {
   text-align: center;
   display: inline-block;
   margin-top: 1rem;
+  margin-left: 2rem;
   border: none;
 }
 
@@ -481,3 +484,137 @@ body {
 .text-start { text-align: start; }
 
 .fw-bold { font-weight: bold; }
+
+/*  component GestionForm */
+.gestion-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.gestion-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.gestion-title {
+  font-size: 2rem;
+  color: #2C2C2C;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.gestion-subtitle {
+  color: #6C63FF;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.gestion-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Selector des options */
+.gestion-select-container {
+  margin-bottom: 2.5rem;
+}
+
+.gestion-select-label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  color: #2C2C2C;
+  font-size: 1.1rem;
+}
+
+.gestion-select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #eaeaea;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #2C2C2C;
+  transition: all 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1.2em;
+}
+
+.gestion-select:focus {
+  outline: none;
+  border-color: #6C63FF;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2);
+}
+
+/* liens */
+.gestion-links-section {
+  background-color: #F8F9FA;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.gestion-links-title {
+  font-size: 1.3rem;
+  color: #2C2C2C;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.gestion-links-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gestion-link-item {
+  margin-bottom: 0.8rem;
+}
+
+.gestion-link {
+  display: flex;
+  align-items: center;
+  color: #6C63FF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.gestion-link:hover {
+  color: #4e47cc;
+  text-decoration: underline;
+}
+
+.gestion-link::before {
+  content: "→";
+  margin-right: 0.5rem;
+  color: #6C63FF;
+}
+
+/* Contenido dinámico */
+.gestion-content {
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  margin-top: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .gestion-container {
+      padding: 1.5rem;
+  }
+  
+  .gestion-title {
+      font-size: 1.7rem;
+  }
+}

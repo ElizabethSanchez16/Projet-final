@@ -40,31 +40,35 @@ export default function GestionForm() {
                 );
             default:
                 return (
-                    <div>
-                        <h1 className="text-3xl font-bold mb-4">Page de gestion</h1>
-                        <p className="mb-4">Bienvenue sur la page de gestion. Veuillez choisir une option dans la liste déroulante ci-dessous.</p>
+                    <div className="gestion-header">
+                        <h1 className="gestion-title">Page de gestion</h1>
+                        <p className="gestion-description">Bienvenue sur la page de gestion. Veuillez choisir une option dans la liste déroulante ci-dessous.</p>
                     </div>
                 );
         }
     };
 
     return (
-        <div className="container mt-4">
-            <div className="mb-3">
-                <label htmlFor="options" className="form-label">Choisir une option:</label>
-                <select
-                    className="form-select"
-                    id="options"
-                    onChange={(e) => setSelectedOption(e.target.value)}
-                    value={selectedOption}
-                >
-                    <option value="">Sélectionner une option</option>
-                    <option value="users">1. Gestion des comptes utilisateurs</option>
-                    <option value="creatures">2. Modification de vinyls</option>
-                    <option value="ajout">3. Ajout de vinyls</option>
-                </select>
+        <div className="gestion-select-container">
+            <div className="container mt-4">
+                <div className="mb-3">
+                    <label htmlFor="options" className="gestion-select-label">Choisir une option:</label>
+                    <select
+                        className="gestion-select"
+                        id="options"
+                        onChange={(e) => setSelectedOption(e.target.value)}
+                        value={selectedOption}
+                    >
+                        <option value="">Sélectionner une option</option>
+                        <option value="users">1. Gestion des comptes utilisateurs</option>
+                        <option value="creatures">2. Modification de vinyls</option>
+                        <option value="ajout">3. Ajout de vinyls</option>
+                    </select>
+                </div >
+                <div className="gestion-content">
+                    {renderOptionContent()}
+                </div >
             </div>
-            {renderOptionContent()}
         </div>
     );
 }

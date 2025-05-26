@@ -20,7 +20,7 @@ export default function LinksForm() {
       </ul>
       <ul className="me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" href="">Diagramme UML</a>
+          <a className="nav-link" href="https://cegepjonquiere-my.sharepoint.com/:i:/g/personal/2510554_etu_cegepjonquiere_ca/EUQJAVaefDREkFhRI9x_mkYBpfpBXOkUSUhRxvTrErkXmA?email=0834238%40etu.cegepjonquiere.ca&e=4gXPS1">Diagramme UML</a>
         </li>
       </ul>
     </div>

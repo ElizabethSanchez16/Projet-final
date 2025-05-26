@@ -52,7 +52,7 @@ export default function AdminValidationForm({ onAdminVerified }) {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">Valider</button>
+        <button type="submit" className="btn-primary">Valider</button>
         {error && <p className="text-danger mt-2">{error}</p>}
       </form>
     </div>

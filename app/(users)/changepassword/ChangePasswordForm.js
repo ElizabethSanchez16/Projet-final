@@ -97,7 +97,7 @@ export default function ChangePasswordForm() {
                         required
                     />
                 </div>
-                <button type="submit" className="btn btn-primary">Changer le mot de passe</button>
+                <button type="submit" className="btn-primary">Changer le mot de passe</button>
             </form>
         </div>
     );

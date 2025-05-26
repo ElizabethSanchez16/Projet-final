@@ -34,6 +34,12 @@ export default function BlogList({ musiques = [] }) {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
+          <button className="btn"
+            type="button" 
+              onClick={() => onSearch('test')} // Valor hardcodeado
+          >
+              Rechercher
+          </button>
       </div>
       <div className="row">
         {filteredMusiques.map((musique) => (

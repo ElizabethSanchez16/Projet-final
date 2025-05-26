@@ -91,9 +91,9 @@ export default function Header() {
           </ul>
 
           {isUserLoggedIn ? (
-            <button className="btn btn-outline-danger" onClick={handleLogout}>Déconnexion</button>
+            <button className="btn-outline-danger" onClick={handleLogout}>Déconnexion</button>
           ) : (
-            <button className="btn btn-outline-success" onClick={handleLogin}>Connexion</button>
+            <button className="btn-primary" onClick={handleLogin}>Connexion</button>
           )}
         </div>
       </div>
